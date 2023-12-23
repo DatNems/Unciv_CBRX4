@@ -1034,7 +1034,7 @@
 	{
 		"name": "Faroe Islands",
 		"leaderName": "Tróndur í Gøtu",
-		"adjective": ["faroese"],
+		"adjective": ["Faroese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 
@@ -1097,6 +1097,34 @@
 			"Bordeaux","Gloucester","Leicester","Newcastle","Paris","Wexford","Bury St Edmunds","Boston","Beverley","Pembroke",
 			"Troyes","Great Yarmouth","Brest","Shrewsbury","Plymouth","Caerphilly","Worcester","Barlech","Hull","Ipswich"],
         "spyNames": ["William", "Thomas", "Richard", "John", "Henry", "Mary", "Catherine", "Edmund", "Edward", "James"]
+    },
+	{
+		"name": "The Ume Sámi",
+		"leaderName": "Rijkuo-Maja",
+		"adjective": ["Sámi"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I'm afraid the time has come to drop pretenses. You are an enemy, and we will treat you as such.",
+		"attacked": "You have made a mistake. Horagalles, protect me!",
+		"defeated": "You have won, outsider. ...Perhaps you should keep an eye on the deer and the ravens of your land.",
+		"introduction": "Hm, a newcomer. Do you seek spiritual aid, or have you come to trade with my people?",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "These items are in great demand. I wouldn't haggle too much if I were you.",
+		"outerColor": [2, 71, 49],
+		"innerColor": [135, 213, 230],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Akkanålke Hoard",
+		"uniques": [" "],
+		"cities": ["Mausjaure","Árviesjávrrie","Ubmeje","Piteje","Likssjuo","Máláge","Vittangi","Jiellevárre","Åsele","Jokkmove",
+			"Tärna","Árjepluovve","Måskuossuvvane","Midtjá","Östra Kikkejaur","Udtjá","Rödingsträsk","Ståkke","Luokta","Bårgovare",
+			"Maskaure","Radnejaur","Grans","Ran","Västra Kikkejaur","Jerfojaur","Araksuolo","Vaksemjaure","Strömudden","Ullisjaure",
+			"Malmejaure","Ruasskuo"],
+        "spyNames": ["Amund", "Per", "Lars", "Israel", "Sandvärn", "Guoksak", "Rana", "Katarina", "Karin", "Anja"]
     },
 	
 	

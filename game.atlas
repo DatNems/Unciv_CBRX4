@@ -18,6 +18,13 @@ NationIcons/Faroe Islands
   orig: 128, 128
   offset: 0, 0
   index: -1
+NationIcons/Ume Sámi
+  rotate: false
+  xy: 412, 176
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 UnitIcons/Chevauchée
   rotate: false
   xy: 4, 4
@@ -27,8 +34,15 @@ UnitIcons/Chevauchée
   index: -1
 UnitIcons/Longbowmen
   rotate: false
-  xy: 276, 140
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Najjde
+  rotate: false
+  xy: 276, 112
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
