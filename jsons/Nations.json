@@ -1056,7 +1056,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Jolafundurin",
-		"uniques": [ "[+1 Production] [in all cities] <upon building a [Pilot Whale] improvement>", // only works once ffs
+		"uniques": [ "[+2 Production] [in all cities] <upon building a [Pilot Whale] improvement>", // only works once ffs
 					// "[+1 Production] per every [10] [Culture]", 
 					// "[+1 Production] per [2] social policies adopted",
 					// "[+2 Production] [in all cities] <upon building a [Pilot Whale] improvement> <for [10] turns>",
@@ -1099,7 +1099,7 @@
         "spyNames": ["William", "Thomas", "Richard", "John", "Henry", "Mary", "Catherine", "Edmund", "Edward", "James"]
     },
 	{
-		"name": "The Ume Sami",
+		"name": "The Ume Sami",  // deer part no worky because conditionals are broken too?!!!
 		"leaderName": "Rijkuo-Maja",
 		"adjective": ["Sámi"],
 		"startBias": ["Forest"],
@@ -1119,7 +1119,9 @@
 		"innerColor": [135, 213, 230],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Akkanålke Hoard",
-		"uniques": [" "],
+		"uniques": ["[Great Merchant] is earned [+25]% faster","[+2 Food, +2 Faith] from every [Customs house]",
+			"[+2 Gold, +2 Faith] from every [Mountain] <within [3] tiles of a [Customs house]>",
+			"[+2 Gold, +2 Faith] from every [Lake] <within [3] tiles of a [Customs house]>"],
 		"cities": ["Mausjaure","Árviesjávrrie","Ubmeje","Piteje","Likssjuo","Máláge","Vittangi","Jiellevárre","Åsele","Jokkmove",
 			"Tärna","Árjepluovve","Måskuossuvvane","Midtjá","Östra Kikkejaur","Udtjá","Rödingsträsk","Ståkke","Luokta","Bårgovare",
 			"Maskaure","Radnejaur","Grans","Ran","Västra Kikkejaur","Jerfojaur","Araksuolo","Vaksemjaure","Strömudden","Ullisjaure",

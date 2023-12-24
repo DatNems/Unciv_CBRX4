@@ -57,7 +57,21 @@
 			"[+1 Culture] from [Bonus resource] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
-	
+	{
+		"name": "Gåhtie",
+        "replaces": "University",
+		"uniqueTo": "The Ume Sami",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": ["[+2 Science] from [Deer] tiles [in this city]",
+		"[+2 Science] from [Furs] tiles [in this city]",
+		"[+2 Science] from [Fish] tiles [in this city]",
+		"[+1 Production] from [Camp] tiles [in this city]",
+		"[+10]% Great Person generation [in this city]"],
+		"requiredTech": "Education"
+	},
 	
 	
 	
