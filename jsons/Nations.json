@@ -1128,6 +1128,46 @@
 			"Malmejaure","Ruasskuo"],
         "spyNames": ["Amund", "Per", "Lars", "Israel", "Sandvärn", "Guoksak", "Rana", "Katarina", "Karin", "Anja"]
     },
+	{
+		"name": "Burgundy",
+		"leaderName": "Charles I",
+		"adjective": ["Burgundian"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "...",
+		"defeated": "I have no business with you.",
+		"introduction": "Hmph? Another curious and envious ruler from lower rank, to visit me? Charles I, the Bold and his glorious machine and war. Maybe you can learn a few tricks from my Grace.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "Well?",
+
+        "outerColor": [ 95, 4, 25],
+        "innerColor": [216,152,168],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Guns of Odruik",
+		"uniques": ["[+10]% Strength <for [Gunpowder] units>", "[-50]% maintenance costs <for [Siege] units>"],
+		"cities": ["Dijon","Autun","Nancy","Beaune","Amiens","Nevers","Arras","Ypres","Antwerp","Breda",
+			"Bethune","Therouanne","Brussels","Courtrai","Mechelen","Bruges","Namur","Boulogne","Valenciennes","Rethel",
+			"Vezelay","Ghent","Amsterdam","Delft","Luxembourg","The Hague","Leiden","Limbourg","Luxeuil","Verdun","Bergen op Zoom",
+			"Middelburg","Metz","Aalst","Clairvaux","Chalon","Poligny"],
+        "spyNames": ["Colette", "Adelaide", "Yolande", "Joan", "Constance", "Hugues", "Jean-Philippe", "Larousse", "Nicephore", "Bernard"]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

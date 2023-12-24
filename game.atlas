@@ -4,6 +4,13 @@ size: 512, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+NationIcons/Burgundy
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/English Empire
   rotate: false
   xy: 4, 112
@@ -20,28 +27,35 @@ NationIcons/Faroe Islands
   index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 384, 140
+  xy: 328, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chevauchée
   rotate: false
-  xy: 4, 4
+  xy: 276, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hand Gunner
+  rotate: false
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Longbowmen
   rotate: false
-  xy: 276, 140
+  xy: 384, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Najjde
   rotate: false
-  xy: 112, 4
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

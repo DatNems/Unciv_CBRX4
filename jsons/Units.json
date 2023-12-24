@@ -1803,6 +1803,21 @@
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	//Burgundy
+	{
+		"name": " Hand Gunner",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Burgundy",
+		"uniques": ["[+25]% Strength <vs [non-[Wounded]] units>"],
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
 	
 	
 	

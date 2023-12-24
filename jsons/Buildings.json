@@ -72,6 +72,26 @@
 		"[+10]% Great Person generation [in this city]"],
 		"requiredTech": "Education"
 	},
+	{
+		"name": "Chastel",
+        "replaces": "Castle",
+		"uniqueTo": "Burgundy",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques":["[+25]% Production when constructing [Gunpowder] units [in this city]",
+		"[+25]% Production when constructing [Siege] units [in this city]",
+		"[+5 Science] <with a garrison> <when at war>",
+		"Destroyed when the city is captured"],
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+	},
+	
+	
+	
+	
+	
+	
 	
 	
 	
