@@ -1818,7 +1818,26 @@
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
-	
+	//Visigoth
+	{
+		"name": "Gardingo",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Visigothic Kingdom",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Gain [20]-[30] [Culture] <upon being promoted>",
+		"Founds a new city <on foreign continents>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	
 	
 	

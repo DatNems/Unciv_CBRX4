@@ -85,6 +85,17 @@
 		"Destroyed when the city is captured"],
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
+	}, 
+	{   //conditionals refuse to work at all in any case uwu
+		"name": "Ashlar Church",
+        "replaces": "Shrine",
+		"uniqueTo": "Visigothic Kingdom",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["[+1 Production] from every [Artist] <in this city>"],
+		"requiredTech": "Pottery",
 	},
 	
 	

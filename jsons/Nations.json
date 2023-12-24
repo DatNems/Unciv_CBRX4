@@ -1157,6 +1157,40 @@
 			"Middelburg","Metz","Aalst","Clairvaux","Chalon","Poligny"],
         "spyNames": ["Colette", "Adelaide", "Yolande", "Joan", "Constance", "Hugues", "Jean-Philippe", "Larousse", "Nicephore", "Bernard"]
     },
+	{
+		"name": "Visigothic Kingdom",
+		"leaderName": "Leovigild",
+		"adjective": ["Visigothic"],
+		"preferredVictoryType": "Culture",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "God blesses those who deserve it.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		"outerColor": [90,71,53],
+		"innerColor": [230,192,99],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Book of the Judges",
+		"uniques": ["Free [Great Artist] appears <upon adopting [Tradition Complete]>",
+		"Free [Great Artist] appears <upon adopting [Liberty Complete]>",
+		"Free [Great Artist] appears <upon adopting [Honor Complete]>",
+		"Free [Great Artist] appears <upon adopting [Piety Complete]>",
+		"Free [Great Artist] appears <upon adopting [Patronage Complete]>",
+		"Free [Great Artist] appears <upon adopting [Commerce Complete]>",
+		"Free [Great Artist] appears <upon adopting [Rationalism Complete]>",
+		// "Free [Great Artist] appears <upon adopting [Aesthatics Complete]>",
+		"[+2 Production] from every [Landmark]"],
+		"cities": ["Toledo","Narbo","Barcino","Emerita","Asturica","Palencia","Reccopolis","Victoriacum","Hispalis","Ologicus","Baiyara",
+			"Cordova","Tarraco","Bracara","Gades","Malaca","Cartagena","Lugo","Leon","Agde","Saragossa","Arles","Gerona",
+			"Septa","Oviedo","Cauria","Valentia","Valeria","Assidonia","Ilerda"],
+        "spyNames": ["Framidaneus", "Gesalec", "Athaloc", "Theudis", "Eutharic", "Amalaberga", "Amalafrida", "Brunhilda", "Galswintha", "Matasuntha"]
+    },
 	
 	
 	
