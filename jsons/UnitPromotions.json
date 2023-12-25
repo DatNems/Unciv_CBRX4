@@ -773,7 +773,10 @@
         "name": "[Hartschier] ability",  //NOT TESTED BECAUSE NO FORT AI
         "uniques": ["[+50]% Strength <when defending> <upon ending a turn in a [Schloss] tile>"]
     }
-	
+	{
+        "name": "[Székely Guardsman] ability",
+        "uniques": ["[+50]% Strength <when defending> <within [1] tiles of a [City center]>"]
+    }
 	
 	
 	

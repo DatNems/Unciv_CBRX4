@@ -1275,6 +1275,36 @@
 			"Gades","Ravenna"],
         "spyNames": ["Marcus", "Publius", "Gnaeus", "Lucius", "Apollodorus", "Pompeia", "Salonia", "Ulpia", "Felix", "Paulina"]
     },
+	{
+		"name": "Royal Hungary",
+		"leaderName": "Elizabeth Bathory",
+		"adjective": ["Hungarian"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I will defend my lands with all my might. See that I shall.",
+		"attacked": "Is that how it is then? Very well. But I will not show mercy to any man, woman, or children of yours I capture.",
+		"defeated": "You will not have my head.",
+		"introduction": "I bid you welcome, traveller. I am Elizabeth Bathory. Pay no heed to the idle talk you may have heard about me. Yes, I am beautiful. But it is a beauty sustained by an all-natural recipe.",
+
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's ye!",
+		"tradeRequest": "The trials of power take a toll on a poor woman. Won't you assist Royal Hungary in honouring this request?",
+
+        "outerColor": [56,23,16],
+        "innerColor": [243,57,41],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tigress of Csejthe",
+		"uniques": ["[+75]% growth [in all cities connected to capital] <when below [0] Happiness>"],
+		"cities": ["Csejte", "Kassa", "Komárom", "Győr", "Nagykanizsa", "Varasd", "Károlyváros", "Eperjes",
+			"Ungvár", "Trencsén", "Pozsony", "Tatabánya", "Szombathely", "Zabrag", "Nagybánya", "Szatmárnémeti",
+			"Besztercebánya", "Turócszentmárton", "Sopron", "Veszprém", "Eger", "Nagyszombat", "Nyitra",
+			"Zalaegerszeg"],
+        "spyNames": ["Andrew", "Christopher", "Maria", "Sophia", "Stephen", "Gabriel", "Ficzko", "Balthasar", "Griselda", "Batholemeus"]
+    },
 	
 	
 	
