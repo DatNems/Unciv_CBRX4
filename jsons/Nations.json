@@ -1160,7 +1160,7 @@
 		"name": "Visigothic Kingdom",
 		"leaderName": "Leovigild",
 		"adjective": ["Visigothic"],
-		"preferredVictoryType": "Culture",
+		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1219,6 +1219,47 @@
             "Sutarkulla","Nakolinna","Huntila","Rutajärvi","Pussila","Kaupinlinna","Borgö","Otava","Otrala","Vinkkilä","Bocklintin"],
         "spyNames": ["Uljas-Urtti", "Osmo", "Wäimund", "Fornjotr", "Mielikkitytär", "Thengill", "Torro", "Ahti", "Faravid", "Louhi"]
     },
+	{
+		"name": "Bavaria",
+		"leaderName": "Ludwig II",
+		"adjective": ["Bavarian"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Glorious ballads will be sung about the legendary battles to come. Let us go to war, then.",
+		"attacked": "You seek only to destroy my beauty, but my beauty is immortalised in brick and stone.",
+		"defeated": "I shall now retreat to one of my great sanctums for good. If the world does not want me, then I do not want the world.",
+		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "Unfortunately I spent a little too much on my last project. Could you lend a friend a hand? I'm sure we can work out some kind of arrangement...",
+		"outerColor": [203, 216, 219],
+		"innerColor": [6, 61, 78],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Swan King",
+		"uniques": ["Empire enters a [5]-turn Golden Age <upon constructing [Wonders]>",
+		"New [Hartschier] units start with [45] Experience [in all cities] <in cities with a [Wonders]>"],
+		"cities": ["München","Regensburg","Ingolstadt","Nürnberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth",
+			"Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer",
+			"Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrücken","Eichstadt","Pfarrkirchen","Kelheim","Mainburg"],
+        "spyNames": ["Charlotte", "Sophie", "Elisabeth", "Adam", "Florian", "Kurt", "Henrik", "Max", "Jerome", "Joseph"]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

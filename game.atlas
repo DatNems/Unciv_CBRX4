@@ -4,9 +4,16 @@ size: 1024, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Burgundy
+NationIcons/Bavaria
   rotate: false
   xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Burgundy
+  rotate: false
+  xy: 276, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -27,63 +34,70 @@ NationIcons/Faroe Islands
   index: -1
 NationIcons/The Finns
   rotate: false
-  xy: 816, 140
+  xy: 328, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 220, 4
+  xy: 436, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Visigothic Kingdom
   rotate: false
-  xy: 328, 32
+  xy: 544, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chevauchée
   rotate: false
-  xy: 276, 140
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gardingo
   rotate: false
-  xy: 112, 4
+  xy: 384, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hand Gunner
   rotate: false
-  xy: 384, 140
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Kainulainen Huntress
-  rotate: false
   xy: 492, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Longbowmen
+UnitIcons/Hartschier
   rotate: false
   xy: 600, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Najjde
+UnitIcons/Kainulainen Huntress
   rotate: false
   xy: 708, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Longbowmen
+  rotate: false
+  xy: 816, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Najjde
+  rotate: false
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

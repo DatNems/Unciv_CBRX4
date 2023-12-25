@@ -769,6 +769,16 @@
         "name": "[Kainulainen Huntress] ability",
         "uniques": ["[1] additional attacks per turn <in [Hill] tiles>"]
     }
+	{
+        "name": "[Hartschier] ability",  //NOT TESTED BECAUSE NO FORT AI
+        "uniques": ["[+50]% Strength <when defending> <upon ending a turn in a [Schloss] tile>"]
+    }
+	
+	
+	
+	
+	
+	
 	
 	
 ]

@@ -1853,6 +1853,31 @@
 		"promotions": ["[Kainulainen Huntress] ability"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Hartschier",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Bavaria",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I","[Hartschier] ability"],
+		"attackSound": "horse"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
