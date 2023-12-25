@@ -25,16 +25,23 @@ NationIcons/Faroe Islands
   orig: 128, 128
   offset: 0, 0
   index: -1
+NationIcons/The Finns
+  rotate: false
+  xy: 816, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 708, 140
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Visigothic Kingdom
   rotate: false
-  xy: 816, 140
+  xy: 328, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -60,16 +67,23 @@ UnitIcons/Hand Gunner
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Longbowmen
+UnitIcons/Kainulainen Huntress
   rotate: false
   xy: 492, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Najjde
+UnitIcons/Longbowmen
   rotate: false
   xy: 600, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Najjde
+  rotate: false
+  xy: 708, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

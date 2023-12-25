@@ -1838,6 +1838,21 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Kainulainen Huntress",
+		"unitType": "Sword",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "The Finns",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["[Kainulainen Huntress] ability"],
+		"attackSound": "arrow"
+	},
 	
 	
 	

@@ -1191,6 +1191,35 @@
 			"Septa","Oviedo","Cauria","Valentia","Valeria","Assidonia","Ilerda"],
         "spyNames": ["Framidaneus", "Gesalec", "Athaloc", "Theudis", "Eutharic", "Amalaberga", "Amalafrida", "Brunhilda", "Galswintha", "Matasuntha"]
     },
+	{
+	    "name": "The Finns",
+		"leaderName": "Kirmukarmu",
+		"adjective": ["Finns"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Since the day I learned to hold a sword, I have swung it against enemies. The fate of you and your little nation will be a simple matter of chopping a few heads.",
+		"attacked": "So martydom awaits. I wasn't meaning for myself, of course. Whatever gods you have will surely miss you and your stupidity.",
+		"defeated": "I come before you in chains. I might give another look at your faith, my gods have done me no good.",
+		"introduction": "Gaze upon me, traveller. I am Kirmukarmu, the lord of the hills and lakes. You'll be pleased to know there's that nothing makes you feel alive more than the thought that I could put you out of your misery at any moment.",
+
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it is you.",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+        "outerColor": [5, 46, 122],
+		"innerColor": [212, 172, 122],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Crown of Worms",
+		"uniques": ["Gain [10]-[30] [Faith] <upon gaining a [Sword] unit>"],
+		"cities": ["Kirmukarmin","Rapolan","Kalliomäki","Rikala","Tiurinlinna","Vanaja","Salmenkylän","Paasonvuori","Kauttua",
+            "Hiukkasaari","Buttalan","Junkarsborg","Lammela","Kiikka","Meskala","Kapatuosia","Isolinnamäki","Pukinvuori","Borgboda",
+            "Pentti","Kokemäki","Kirvunlinna","Pirunlinna","Touchemlya","Pisamalahti","Hämeenlahti","Vainionmäki","Varjakka","Ruavinjarga",
+            "Sutarkulla","Nakolinna","Huntila","Rutajärvi","Pussila","Kaupinlinna","Borgö","Otava","Otrala","Vinkkilä","Bocklintin"],
+        "spyNames": ["Uljas-Urtti", "Osmo", "Wäimund", "Fornjotr", "Mielikkitytär", "Thengill", "Torro", "Ahti", "Faravid", "Louhi"]
+    },
 	
 	
 	

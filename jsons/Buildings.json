@@ -97,6 +97,17 @@
 		"uniques": ["[+1 Production] from every [Artist] <in this city>"],
 		"requiredTech": "Pottery",
 	},
+	{
+		"name": "Giant's Church",
+        "replaces": "Shrine",
+		"uniqueTo": "The Finns",
+		"faith": 1,
+		"cost": 80,
+		"maintenance": 1,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"uniques": ["[+10]% Golden Age length"],
+		"requiredTech": "Pottery",
+	},
 	
 	
 	
