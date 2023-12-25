@@ -10,7 +10,7 @@
 				"name": "Agriculture",
 				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","Enables embarkation for land units"]
 			}
 		]
 	},
@@ -111,7 +111,6 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
