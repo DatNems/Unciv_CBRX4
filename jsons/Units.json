@@ -1867,6 +1867,23 @@
 		"promotions": ["Formation I","[Hartschier] ability"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Singulares",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Imperial Rome",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"Free [Singulares] appears <upon defeating a [All] unit>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	
 	
 	

@@ -1246,6 +1246,35 @@
 			"Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrücken","Eichstadt","Pfarrkirchen","Kelheim","Mainburg"],
         "spyNames": ["Charlotte", "Sophie", "Elisabeth", "Adam", "Florian", "Kurt", "Henrik", "Max", "Jerome", "Joseph"]
     },
+	{
+		"name": "Imperial Rome",
+		"leaderName": "Trajan",
+		"adjective": ["Roman"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The Gods may decide all our fates in the end, but I already know yours... I'll try not to spoil too much, but it doesn't work out too well for you.",
+		"attacked": "Gods, you cant surely think you have a chance? Well I can take some time out of my schedule to give you a schooling, though now I'll have to put off my other planned invasions. You're welcome.",
+		"defeated": "Ha! A bloody good first round, for a barbarian! Come find me when you're ready for the next - I've a javelin with your name on it, old friend.",
+		"introduction": "Halt barbarian! Come one step further and I'll have my guards deal with you - further than that and you'll be unfortunate enough to reckon with me! Ha ha!",
+		"neutralHello": "Hail.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This isn't really a request. Requests can be refused.",
+		"outerColor": [114, 21, 46],
+		"innerColor": [214, 183, 150],
+		"favoredReligion": "Christianity",
+		"uniqueName": "All Roads Lead to Rome",
+		"uniques": ["[+1] population in a random city <upon founding a city>", 
+		"New [All] units start with [15] Experience [in all cities] <before the [Renaissance era]>",
+		"[+1 Happiness] from every [Victory Column] <when at war>"],
+		"cities": ["Rome","Alexandria","Antioch","Carthago","Messalia","Nicomedia","Athens","Aquilea","Ctesiphon","Lugdunum",
+			"Neapolis","Nicea","Miletus","Londonium","Eboracum","Palmyra","Babylon","Cremona","Utica","Tyrus",
+			"Gades","Ravenna"],
+        "spyNames": ["Marcus", "Publius", "Gnaeus", "Lucius", "Apollodorus", "Pompeia", "Salonia", "Ulpia", "Felix", "Paulina"]
+    },
 	
 	
 	

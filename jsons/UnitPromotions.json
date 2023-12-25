@@ -767,7 +767,7 @@
 	//CBRX4
     {
         "name": "[Kainulainen Huntress] ability",
-        "uniques": ["[1] additional attacks per turn <in [Hill] tiles>"]
+        "uniques": ["[1] additional attacks per turn <in [Finn Fort] tiles>"]
     }
 	{
         "name": "[Hartschier] ability",  //NOT TESTED BECAUSE NO FORT AI

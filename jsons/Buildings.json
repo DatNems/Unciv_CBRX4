@@ -108,6 +108,17 @@
 		"uniques": ["[+10]% Golden Age length"],
 		"requiredTech": "Pottery",
 	},
+	{
+		"name": "Victory Column",
+        "replaces": "Monument",
+		"uniqueTo": "Imperial Rome",
+		"culture": 2,
+		"happiness": 1,
+		"cost": 60,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	
 	
 	
