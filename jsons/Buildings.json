@@ -131,6 +131,14 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Theology"
 	},
+	{
+		"name": "Chamber of Professions",
+		"uniqueTo": "Latvia",
+		"maintenance": 1,
+		"uniques": ["[+20]% Great Person generation [in this city] <during We Love The King Day>",
+		"[+1 Happiness] from every specialist [in this city]"],
+		"requiredTech": "Electricity",
+	},
 	
 	
 	

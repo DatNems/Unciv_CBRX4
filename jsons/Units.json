@@ -1898,6 +1898,20 @@
 		"promotions": ["[Székely Guardsman] ability"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Aizsargi",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Latvia",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"promotions": ["[Aizsargi] ability"],
+		"attackSound": "shot"
+	},
 	
 	
 	

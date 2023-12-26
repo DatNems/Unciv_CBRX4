@@ -1305,6 +1305,36 @@
 			"Zalaegerszeg"],
         "spyNames": ["Andrew", "Christopher", "Maria", "Sophia", "Stephen", "Gabriel", "Ficzko", "Balthasar", "Griselda", "Batholemeus"]
     },
+	{
+		"name": "Latvia",
+		"leaderName": "Karlis Ulmanis",
+		"adjective": ["Latvian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Latvia's sun shines equally over everyone... and I think it's time that it shone on you as well.",
+		"attacked": "You have assaulted the sovereignty of Latvia, and you will now see how passionate the Latvian people can truly be.",
+		"defeated": "How dare you? Latvia is mine! You may wrest the country away from me, but you will never win the hearts of its people.",
+		"introduction": "Welcome! I am Karlis Ulmanis, the leader of Latvia and of the Latvian people. If there's anything you need, let me know, and I will make it happen.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "In every friendship, one must be the giver and one must be the taker. I'm afraid that, today, I need to be the taker.",
+		"outerColor": [129, 53, 60],
+		"innerColor": [200, 200, 209],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Song of Rebirth",
+		"uniques": ["Empire enters a [3]-turn Golden Age <upon gaining a [Great Person] unit>",
+		"[+10]% Great Person generation [in all cities]"],
+		"cities": ["Riga","Liepaja","Gaugavpils","Jelgava","Rezekne","Valmiera","Jurmala","Jekabpils","Ventspils","Tukuns",
+			"Krustpils","Salaspils","Ogre","Kuldiga","Cesis","Talsi","Bauska","Saldus","Dobele","Kraslava",
+			"Sigulda","Aluksne","Ludza","Limbazi","Valka","Smiltene","Gulbene","Madona","Preili","Lielvarde","Kandava",
+			"Balvi","Aizpute","Ilskile","Berze"],
+        "spyNames": ["Janis", "Zigfrids", "Alberts", "Konstantins", "Peteris", "Guntis", "Luize", "Anna", "Ruta", "Laimdota"]
+    },
 	
 	
 	

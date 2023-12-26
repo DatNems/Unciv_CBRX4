@@ -777,6 +777,10 @@
         "name": "[Székely Guardsman] ability",
         "uniques": ["[+50]% Strength <when defending> <within [1] tiles of a [City center]>"]
     }
+	{
+        "name": "[Aizsargi] ability",
+		"uniques": ["Free Great Person <upon being defeated> <with [33]% chance>"], //this might actually be working
+    }
 	
 	
 	
