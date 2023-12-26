@@ -46,30 +46,37 @@ NationIcons/Latvia
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Makhnovia
+  rotate: false
+  xy: 1248, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Royal Hungary
   rotate: false
-  xy: 1356, 140
+  xy: 1464, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Finns
   rotate: false
-  xy: 1680, 140
+  xy: 1896, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 1788, 140
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Visigothic Kingdom
   rotate: false
-  xy: 1896, 140
+  xy: 328, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -125,21 +132,28 @@ UnitIcons/Longbowmen
   index: -1
 UnitIcons/Najjde
   rotate: false
-  xy: 1248, 140
+  xy: 1356, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Singulares
   rotate: false
-  xy: 1464, 140
+  xy: 1572, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Szekely Guardsman
   rotate: false
-  xy: 1572, 140
+  xy: 1680, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tachanka
+  rotate: false
+  xy: 1788, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

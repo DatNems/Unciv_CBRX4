@@ -139,6 +139,39 @@
 		"[+1 Happiness] from every specialist [in this city]"],
 		"requiredTech": "Electricity",
 	},
+	// Makhnovia Nation Bonus
+	{
+		"name": "Makhno Bonus",   //not tested if working/stacking
+		"uniqueTo": "Makhnovia",
+		"cost": 60,
+		"maintenance": 1, 
+		"uniques": ["New [All] units start with [15] Experience [in all non-occupied cities]",
+		"Unbuildable"],
+	},
+	{
+		"name": "Worker's Council",
+        "replaces": "Workshop",
+		"uniqueTo": "Makhnovia",
+		"uniques": ["Gain [10]-[15] [Gold] <upon defeating a [Military] unit>"],
+		"cityStrength": 2,
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

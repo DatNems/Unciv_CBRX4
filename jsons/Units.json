@@ -1912,6 +1912,22 @@
 		"promotions": ["[Aizsargi] ability"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Tachanka",
+		"unitType": "Mounted",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Makhnovia",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Ignores Zone of Control"],
+		"attackSound": "machinegun"
+	},
 	
 	
 	

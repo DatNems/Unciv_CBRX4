@@ -1309,7 +1309,7 @@
 		"name": "Latvia",
 		"leaderName": "Karlis Ulmanis",
 		"adjective": ["Latvian"],
-		"startBias": ["Tundra"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 
 
@@ -1335,6 +1335,47 @@
 			"Balvi","Aizpute","Ilskile","Berze"],
         "spyNames": ["Janis", "Zigfrids", "Alberts", "Konstantins", "Peteris", "Guntis", "Luize", "Anna", "Ruta", "Laimdota"]
     },
+	{
+		"name": "Makhnovia",
+		"leaderName": "Nestor Makhno",
+		"adjective": ["Makhnovian"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "While those in power resolve themselves to tyranny, you will always find someone willing to risk everything to put them down. Today, that someone is me.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "The revolution doesn't end with the Black Army- you'll find that people will be drawn to anarchism as the evils of the world reveal themselves.",
+		"introduction": "Welcome, comrade, to the territory of the Makhnovist movement. I am Nestor Makhno, and though I do not speak for these people, you can discuss military manners with me.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [31, 33, 40],
+		"innerColor": [224, 238, 246],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Mother Anarchy Loves Her Sons",
+		"uniques": ["May not annex cities",
+		"[-100]% Unhappiness from [Population] [in annexed cities]","[-100]% Unhappiness from [Population] [in puppeted cities]",
+		 "Gain a free [Makhno Bonus] [in puppeted cities] <upon conquering a city>"],
+		"cities": ["Huliaipole","Ekaterinoslav","Mariupol","Alexandrovsk","Berdyansk","Donetsk","Melitopol","Yelisavetgrad","Kherson","Synelnykove",
+			"Polohy","Grishinsky","Volnovakha","Dobrovelychkivka","Veselaya Yevreyka","Novoarkhanhelsk","Prymorsk","Novyi Buh","Kryvyi Rih","Osypenko",
+			"Debaltseve","Azov","Verblyuzhki","Cherkasy","Kremenchug","Chigirin","Znamianka","Oleksandriia","Bila Tserkva","Starohnativka"],
+        "spyNames": ["Peter", "Panteley", "Maksim", "Grigory", "Fedir", "Alexandre", "Marusya", "Agafya", "Yelena", "Volin"]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
