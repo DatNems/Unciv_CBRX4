@@ -81,7 +81,7 @@ UnitIcons/Aizsargi
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Chevauchée
+UnitIcons/Chevauchee
   rotate: false
   xy: 384, 140
   size: 100, 100
@@ -137,7 +137,7 @@ UnitIcons/Singulares
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Székely Guardsman
+UnitIcons/Szekely Guardsman
   rotate: false
   xy: 1572, 140
   size: 100, 100

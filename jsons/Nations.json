@@ -1279,7 +1279,7 @@
 		"name": "Royal Hungary",
 		"leaderName": "Elizabeth Bathory",
 		"adjective": ["Hungarian"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1310,7 +1310,7 @@
 		"leaderName": "Karlis Ulmanis",
 		"adjective": ["Latvian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
 
         "startIntroPart1": "",

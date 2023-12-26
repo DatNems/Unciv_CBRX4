@@ -1777,7 +1777,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Chevauchée",
+		"name": "Chevauchee",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 18,
@@ -1885,7 +1885,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Székely Guardsman",
+		"name": "Szekely Guardsman",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "Royal Hungary",
@@ -1895,7 +1895,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["[Székely Guardsman] ability"],
+		"promotions": ["[Szekely Guardsman] ability"],
 		"attackSound": "shot"
 	},
 	{
