@@ -767,7 +767,7 @@
 	//CBRX4
     {
         "name": "[Kainulainen Huntress] ability", //NOT TESTED BECAUSE NO FORT AI
-        "uniques": ["[1] additional attacks per turn <in [Finn Fort] tiles>"]
+        "uniques": ["[1] additional attacks per turn <in [Forest] tiles>"]
     }
 	{
         "name": "[Hartschier] ability",  //NOT TESTED BECAUSE NO FORT AI
@@ -780,6 +780,10 @@
 	{
         "name": "[Aizsargi] ability",
 		"uniques": ["Free Great Person <upon being defeated> <with [33]% chance>"], //this might actually be working
+    }
+	{
+        "name": "[Chalkaspides] ability",
+        "uniques": ["[+30]% Strength when stacked with [Civilian]"]
     }
 	
 	

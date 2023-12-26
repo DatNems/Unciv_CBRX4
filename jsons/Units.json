@@ -1848,6 +1848,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
+		"requiredResource": "Iron",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"promotions": ["[Kainulainen Huntress] ability"],
@@ -1927,6 +1928,37 @@
 		"obsoleteTech": "Ballistics",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Ignores Zone of Control"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Chalkaspides",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Pontus",
+		"movement": 2,
+		"strength": 16,
+		"cost": 110,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"promotions": ["[Chalkaspides] ability"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Scythed Archer",
+		"unitType": "Mounted",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Pontus",
+		"movement": 5,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Iron",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit",
+		"Damage is ignored when determining unit Strength"],
+		"attackSound": "arrow"
 	},
 	
 	

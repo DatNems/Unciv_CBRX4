@@ -1339,6 +1339,7 @@
 		"name": "Makhnovia",
 		"leaderName": "Nestor Makhno",
 		"adjective": ["Makhnovian"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 
 
@@ -1364,7 +1365,36 @@
 			"Debaltseve","Azov","Verblyuzhki","Cherkasy","Kremenchug","Chigirin","Znamianka","Oleksandriia","Bila Tserkva","Starohnativka"],
         "spyNames": ["Peter", "Panteley", "Maksim", "Grigory", "Fedir", "Alexandre", "Marusya", "Agafya", "Yelena", "Volin"]
     },
-	
+	{
+		"name": "Pontus",
+		"leaderName": "Mithridates VI",
+		"adjective": ["Pontic"],
+		"startBias": ["Plains", "Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Enough talk. Let's take this to the battlefield.",
+		"attacked": "Hah! A blow from my sword will send your empire crumbling into revolution.",
+		"defeated": "Pontus is no more. May my body be buried with the ancients kings of Asia.",
+		"introduction": "I am Mithridates VI Eupator Dionysius, ruler of the divine Kingdom of Pontus. Do you seek Mithras's blessing, or are you here to challenge me?",
+		"neutralHello": "Greetings!",
+		"hateHello": "What do you want?",
+		"tradeRequest": "What will make you consider this?",
+
+        "outerColor": [57,0,42],
+        "innerColor": [238,142,166],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Thunderbolt of Anatolia",
+		"uniques": ["City-State territory always counts as friendly territory","[Great General] is earned [25]% faster"],
+		"cities": ["Amáseia","Sinope","Amisos","Pharnacia","Amastris","Trapezus","Gaziura","Talaura","Eupatoria","Themiscyra","Dioscurias",
+			"Polemonion","Laodikeia","Andrapa","Athenai","Zela","Olbia","Mersyphòn","Gizenenica","Gangra","Ameria","Kainon Charion",
+			"Culupene","Cimiata","Oinoe","Ionopolis","Pimolisa","Karousa","Cotyora","Comana","Caenon","Thermai Phazemoniton","Patara",
+			"Ischopolis","Sagylium","Olotoedariza","Gozalena","Odeinius","Basgoedariza","Sidene"],
+        "spyNames": ["Monima", "Stratonice", "Machares", "Dorylaeus", "Neoptolemus", "Archelaus", "Asclepiodorus", "Diophantus", "Pythodoria", "Laodice"]
+    },
 	
 	
 	
