@@ -1422,6 +1422,37 @@
 			"Layis","Cöri","Taw Ile","Cükätaw","Qasan","Iske Qazan"],
         "spyNames": ["Ulugh", "Xälil", "Mäxmüd", "Mammuq", "Ilham", "Ibrahim", "Ghabdellatif", "Dammin", "Qali", "Käx"]
     },
+	{
+		"name": "Kalmyk Empire",
+		"leaderName": "Ayuka Khan",
+		"adjective": ["Kalmyk"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "When you have been destroyed, know this: I shall grant you mercy.",
+		"attacked": "You shall rue this day. My people are strong, and we shall stand together. You accomplish nothing by this.",
+		"defeated": "You have defeated me. Well done. I lay my sword at your feet.",
+		"introduction": "Welcome to the land of the Kalmyks. I am Ayuka Khan, and you will respect my power.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [234, 206, 92],
+		"innerColor": [35, 93, 143],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Epic of Djangar",
+		"uniques": ["[Great General] units gain the [[Kalmyk] ability] promotion <after [3] turns>",
+		"[Great General] units gain the [Scouting III] promotion <after [3] turns>",
+		"[Xazg] units gain the [Scouting III] promotion <after [10] turns>"],
+		"cities": ["Saratov","Elista","Lagan","Astrakhan","Samara","Bashanta","Tsaritsyn","Guryev","Yashkul","Karakorum",
+			"Toickeo","Omsk","Sadovoe","Malye Derbety","Rostov-on-Don","Priiutnoe",
+			"Belgrade","Tomsky","Balqash","Arym","Krasnojarsk","Manych","Norillag","Yashalta","Iki Burul","Oblinoe",
+			"Solovetsky","Shatta","Utta","Ilan-Erge","Kevudy","Beloozernyy","Barun","Ozernyy"],
+        "spyNames": ["Dzhirgan", "Sar", "Elistina", "Aguya", "Tzatana", "Vazki", "Sanal", "Angarak", "Batu", "Kirsan"]
+    },
 	
 	
 	

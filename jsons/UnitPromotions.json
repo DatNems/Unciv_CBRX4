@@ -779,7 +779,7 @@
     }
 	{
         "name": "[Aizsargi] ability",
-		"uniques": ["Free Great Person <upon being defeated> <with [33]% chance>"], //this might actually be working
+		"uniques": ["Free Great Person <upon being defeated> <with [33]% chance>"], 
     }
 	{
         "name": "[Chalkaspides] ability",
@@ -788,6 +788,10 @@
 	{
         "name": "[Darughar Conscript] ability",
         "uniques": ["[1] additional attacks per turn <when adjacent to a [Darughar Conscript] unit>"]
+    }
+	{
+        "name": "[Kalmyk] ability",  //not completely tested
+        "uniques": ["[+33]% Strength bonus for [All] units within [2] tiles <vs cities>"]
     }
 	
 	
