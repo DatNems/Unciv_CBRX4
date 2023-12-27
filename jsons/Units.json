@@ -1960,6 +1960,20 @@
 		"Damage is ignored when determining unit Strength"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Darughar Conscript",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Kazan Khanate",
+		"movement": 2,
+		"strength": 16,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["[Darughar Conscript] ability"],
+		"attackSound": "metalhit"
+	},
 	
 	
 	

@@ -1395,6 +1395,33 @@
 			"Ischopolis","Sagylium","Olotoedariza","Gozalena","Odeinius","Basgoedariza","Sidene"],
         "spyNames": ["Monima", "Stratonice", "Machares", "Dorylaeus", "Neoptolemus", "Archelaus", "Asclepiodorus", "Diophantus", "Pythodoria", "Laodice"]
     },
+	{
+		"name": "Kazan Khanate",
+		"leaderName": "Möxämmädämin",
+		"adjective": ["Kazan"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Cultural",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "My time with you has told me enough. You have no interest in freedom or apple shooting.",
+		"attacked": "Come and try, we wait.",
+		"defeated": "You won't enjoy your victory, as others will put you in the position I am right now.",
+		"introduction": "Welcome to this realm, I am Möxämmädämin of Kazan. All you see is rightfully mine and neither the Russians or my brothers will change this.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [181, 130, 8],
+		"innerColor": [42, 19, 12],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tartarian Poets",
+		"uniques": ["[+2 Culture] per [1] social policies adopted"],
+		"cities": ["Kazan","Bolgar","Archa","Yelbuga","Cheboksary","Alatyr","Tätes","Alat","Arca","Alabuga",
+			"Layis","Cöri","Taw Ile","Cükätaw","Qasan","Iske Qazan"],
+        "spyNames": ["Ulugh", "Xälil", "Mäxmüd", "Mammuq", "Ilham", "Ibrahim", "Ghabdellatif", "Dammin", "Qali", "Käx"]
+    },
 	
 	
 	

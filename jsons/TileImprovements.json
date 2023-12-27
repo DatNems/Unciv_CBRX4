@@ -288,7 +288,7 @@
 	{
 		"name": "Finn Fort",  //ai doesn't build forts/citadels EVER owo
 		"uniqueTo": "The Finns",
-		"terrainsCanBeBuiltOn": ["Tundra"],
+		"terrainsCanBeBuiltOn": ["Tundra", "Hill"],
 		"turnsToBuild": 6,
 		"production" : 1,
 		"techRequired": "Engineering",

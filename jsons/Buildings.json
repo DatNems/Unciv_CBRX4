@@ -141,11 +141,11 @@
 	},
 	// Makhnovia Nation Bonus
 	{
-		"name": "Makhno Bonus",   //not tested if working/stacking
+		"name": "Makhno Bonus",  
 		"uniqueTo": "Makhnovia",
 		"cost": 60,
 		"maintenance": 1, 
-		"uniques": ["New [All] units start with [15] Experience [in all non-occupied cities]",
+		"uniques": ["New [All] units start with [5] Experience [in all non-occupied cities]",
 		"Unbuildable"],
 	},
 	{
@@ -160,6 +160,19 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Kabak",
+        "replaces": "Mint",
+		"uniqueTo": "Kazan Khanate",
+		"maintenance": 2,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Wheat", "Wine"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",
+		"[+1 Gold] from [Wheat] tiles [in this city]", "[+1 Gold] from [Wine] tiles [in this city]"],
+		"requiredTech": "Currency"
 	},
 	
 	
