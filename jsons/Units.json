@@ -2042,6 +2042,19 @@
 		"[+25]% to Flank Attack bonuses","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Beg",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Khanate of Bukhara",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can speed up construction of a building",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	
 	
 	

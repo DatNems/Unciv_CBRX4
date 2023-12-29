@@ -1510,6 +1510,35 @@
 			"Gonabad","Zibad","Dargaz","Sangan","Kfer Qal'eh"],
         "spyNames": ["Nadi", "Mariyeh", "Afari", "Adeleh", "Bahadur", "Reza", "Abbas", "Adil", "Ebrahim ", "Ardashir"]
     },
+	{
+		"name": "Khanate of Bukhara",
+		"leaderName": "Muhammad Shaybani",
+		"adjective": ["Bukharan"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The great Shaybanid empire shall reign as the victors. You will learn to fear the Uzbeks.",
+		"attacked": "You crossed paths with the wrong khan. All I know is war.",
+		"defeated": "My father's legacy... in shambles. Curse you, may you live in torment!",
+		"introduction": "I am Muhammad Shaybani, leader of this vast empire and Khan of the Uzbeks. You have quite the conviction to talk directly to me; perhaps its stupidity?",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "Seek some of the goods of the Silk Road?",
+
+        "outerColor": [153,77,27],
+        "innerColor": [250,256,190],
+
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "92 Uzbek Tribes",
+		"uniques": ["Empire enters golden age <upon conquering a city>","[Military] units gain the [[Bukhara] ability] promotion"],
+		"cities": ["Bukhara","Samarkand","Turkistan","Merv","Herat","Balkh","Gurganj","Mashhad","Nasaf","Tashkent",
+			"Amul","Sighnaq","Shakhrisabz","Ghazdewan","Andjian","Sayram","Khiva","Kunduz","Astrabad","Fergana","Uzgen",
+			"Nishapur","Arquq","Sabzevar","Mazar-i-Sharif","Hisor","Sauran","Termez","Khujand","Tus","Kerki","Vobkent","G'uzor",
+			"Otrar","Kermine","Sar-i-Pol","Kulab"],
+        "spyNames": ["Budagh", "Kuchkunji", "Abu Sa'id", "Ubaydullah", "Abdullah", "Abdal-Latif", "Nawruz Ahmed", "Pir Muhammad", "Iskander ", "Abdul-Mo'min"]
+    },
 	
 	
 	

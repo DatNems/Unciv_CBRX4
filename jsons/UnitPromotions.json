@@ -805,10 +805,18 @@
         "name": "[Jazayerchiha Conscript] ability",
         "uniques": ["[+40]% Strength <when adjacent to a [Mounted] unit>"]
     }
+	{
+        "name": "[Bukhara] ability", 
+        "uniques": ["[+10]% to Flank Attack bonuses"]
+    }
+	{
+        "name": "[Täq] ability", 
+        "uniques": ["[+10]% Strength <within [3] tiles of a [City center]>"]
+    }
 	
 	
 	
-	
+	//<in [Friendly Land] tiles>
 	
 	
 	

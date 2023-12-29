@@ -186,6 +186,21 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
 		"[+1 Faith] from every [Scientist] <in this city>","[+1 Culture] from every [Engineer] <in this city>"]
 	},
+	{
+		"name": "Täq",
+        "replaces": "Market",
+		"uniqueTo": "Khanate of Bukhara",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [[Täq] ability] promotion"],
+	},
+	
+	
+	
+	
 	
 	
 	
