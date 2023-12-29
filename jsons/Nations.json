@@ -1482,6 +1482,34 @@
 			"Sohar","Uqair","Kish","Abqaiq","Kufa","Nariyah","Az-Zarah","Ta'aba","Dibai"],
         "spyNames": ["Hamdan", "Abu Hatim", "Jafar", "Abu Said", "Nasir", "Zikrawayh", "Ali", "Sulayman", "Esfandiar ", "Abul Qasim"]
     },
+	{
+		"name": "The Afsharids",
+		"leaderName": "Nader Shah",
+		"adjective": ["Afsharid"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I hope you are preparing your armies. I shall defeat you in hours.",
+		"attacked": "Have no doubt, I will find cause to one day break you.",
+		"defeated": "There is no war in paradise? How can there be any delights there?",
+		"introduction": "Who is that? Another petty ruler? I am willing to incorporate your lands into my might empire, but you must be willing to fight for me.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+        "outerColor": [250,224,194],
+        "innerColor": [183,46,14],
+
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Sword of Persia",
+		"uniques": ["[Military] units gain the [[Afsharid] ability] promotion"],
+		"cities": ["Mashhad","Isfahan","Damghan","Hamadan","Nahavand","Kermanshah","Shiraz","Qazvin","Tabriz","Bandar-e-Bushehr",
+			"Bushehr","Tehran","Resht","Gulnabad","Dastgerd","Quchan","Murche-Khort","Zarghan","Shirvan","Sabzevar","Zaveh",
+			"Gonabad","Zibad","Dargaz","Sangan","Kfer Qal'eh"],
+        "spyNames": ["Nadi", "Mariyeh", "Afari", "Adeleh", "Bahadur", "Reza", "Abbas", "Adil", "Ebrahim ", "Ardashir"]
+    },
 	
 	
 	

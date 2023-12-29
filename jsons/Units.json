@@ -2012,6 +2012,36 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "Jazayerchiha",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "The Afsharids",
+		"movement": 2,
+		"strength": 27,
+		"cost": 180,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["[Jazayerchiha Conscript] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Savaran e Saltanati",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "The Afsharids",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength <vs cities> <when attacking>", 
+		"[+25]% to Flank Attack bonuses","Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
 	
 	
 	
