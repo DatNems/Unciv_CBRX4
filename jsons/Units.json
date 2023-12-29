@@ -1741,22 +1741,17 @@
 	
 	//CBRX4
 	
-	//Faroe Islands - beware of spam
-	{  
-		"name": "Grindadráp",
-		"unitType": "Civilian",
+	{
+		"name": "Grindadrap",
+		"unitType": "Civilian Water",
 		"uniqueTo": "Faroe Islands",
 		"replaces": "Work Boats",
+		"movement": 4,
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
-		   "May travel on Water tiles without embarking",
-		   "Can build [Water] improvements on tiles",
-		   //"Can build [Fishing Boats] improvements on tiles",
-           //"Can instantly construct a [Pilot Whale] improvement <by consuming this unit>",
-		   "May create improvements on water resources",
-           "Uncapturable", "Automation is a primary action"]
+            "Uncapturable", "Automation is a primary action", "Can build [Pilot Whale] improvements on tiles",]
 	},
 	// english empire (Henry V)
 	{
