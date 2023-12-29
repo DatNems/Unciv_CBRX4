@@ -1056,7 +1056,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Jolafundurin",
-		"uniques": [ "[+2 Production] [in all cities] <upon building a [Pilot Whale] improvement>", // only works once ffs
+		"uniques": [ "[+2 Production] [in all cities] <upon building a [Pilot Whale] improvement>", // still does not work omfg
 					// "[+1 Production] per every [10] [Culture]", 
 					// "[+1 Production] per [2] social policies adopted",
 					// "[+2 Production] [in all cities] <upon building a [Pilot Whale] improvement> <for [10] turns>",
@@ -1452,6 +1452,35 @@
 			"Belgrade","Tomsky","Balqash","Arym","Krasnojarsk","Manych","Norillag","Yashalta","Iki Burul","Oblinoe",
 			"Solovetsky","Shatta","Utta","Ilan-Erge","Kevudy","Beloozernyy","Barun","Ozernyy"],
         "spyNames": ["Dzhirgan", "Sar", "Elistina", "Aguya", "Tzatana", "Vazki", "Sanal", "Angarak", "Batu", "Kirsan"]
+    },
+	{
+		"name": "Qarmatia",
+		"leaderName": "Abu Tahir al-Jannabi",
+		"adjective": ["Qarmatian"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
+		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
+		"defeated": "You cannot delay the end times - the holy fire may not be extinguished and soon it will return to burn everything you hold dear. Enjoy your victory for now, heathen, it will soon be nought but ash and bones.",
+		"introduction": "I have burned temples from Kufa to Mecca, killed pilgrims - men, women and children, from the dusty roads of Arabia to the glittering highways of Cairo. And now, in this final hour of our world, as the cosmic dance heralds the cleansing fire of our Lord, you stand before me? Speak what you must, while you can.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+        "outerColor": [20,24,18],
+        "innerColor": [143,193,81],
+
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "First Flame of the Last Days",
+		"uniques": ["[Military] units gain the [[Qarmatia] ability] promotion",
+		"Free [Ransom Caravan] appears <upon conquering a city>"],
+		"cities": ["Al-ahsa","Ain Al-Kuayba","Qatif","Hajar","Safwan","Zahran","Juwatha","Basra","Al-Mabraz","Khobar",
+			"Al-Bidda","Hafar Al-Batin","Al-Ru'ays","Muharraq","Jawatha","Mecca","Jubail","Dhahran","Al-Agar","Medina","Sa'ad",
+			"Sohar","Uqair","Kish","Abqaiq","Kufa","Nariyah","Az-Zarah","Ta'aba","Dibai"],
+        "spyNames": ["Hamdan", "Abu Hatim", "Jafar", "Abu Said", "Nasir", "Zikrawayh", "Ali", "Sulayman", "Esfandiar ", "Abul Qasim"]
     },
 	
 	
