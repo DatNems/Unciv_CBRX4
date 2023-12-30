@@ -144,7 +144,6 @@
 		"name": "Makhno Bonus",  
 		"uniqueTo": "Makhnovia",
 		"cost": 60,
-		"maintenance": 1, 
 		"uniques": ["New [All] units start with [5] Experience [in all non-occupied cities]",
 		"Unbuildable"],
 	},
@@ -210,6 +209,30 @@
 		"Production to [Science] conversion in cities changed by [+25]%"],
 		"requiredTech": "Robotics"
 	},
+	// Selkup Nation Bonus
+	{
+		"name": "Selkup Bonus",  
+		"uniqueTo": "The Selkups",
+		"cost": 60,
+		"uniques": ["Reveal up to [5] [Fish] within a [5] tile radius",  //brooooo this unique doesn't work anymore :c
+		"Unbuildable"],
+	},
+	{
+		"name": "Kinci",
+        "replaces": "Lighthouse",
+		"uniqueTo": "The Selkups",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
+			"Provides 1 extra copy of each improved luxury resource near this City"],
+		"requiredTech": "Optics"
+	},
+	
+	
+	
+	
 	
 	
 	

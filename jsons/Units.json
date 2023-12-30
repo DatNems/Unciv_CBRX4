@@ -2071,6 +2071,24 @@
 		"promotions": ["Amphibious"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Skewbald Rider",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "The Selkups",
+		"movement": 3,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"[+20]% Strength <in [Friendly Land] tiles>","[+1] Movement <in [River] tiles>",
+		"Never appears as a Barbarian unit"],
+		"promotions": ["Amphibious"],
+		"attackSound": "horse"
+	},
 	
 	
 	

@@ -1358,7 +1358,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mother Anarchy Loves Her Sons",
 		"uniques": ["May not annex cities",
-		"[-100]% Unhappiness from [Population] [in annexed cities]","[-100]% Unhappiness from [Population] [in puppeted cities]",
+		"[-100]% Unhappiness from [Population] [in puppeted cities]","[-100]% Unhappiness from [Population] [in puppeted cities]",
 		 "Gain a free [Makhno Bonus] [in puppeted cities] <upon conquering a city>"],
 		"cities": ["Huliaipole","Ekaterinoslav","Mariupol","Alexandrovsk","Berdyansk","Donetsk","Melitopol","Yelisavetgrad","Kherson","Synelnykove",
 			"Polohy","Grishinsky","Volnovakha","Dobrovelychkivka","Veselaya Yevreyka","Novoarkhanhelsk","Prymorsk","Novyi Buh","Kryvyi Rih","Osypenko",
@@ -1567,6 +1567,35 @@
 			"Rudny","Jezkazgan","Balkash","Satpayev","Kentay","Zhetisay","Kaskelen","Stepnogorsk","Kulsary","Ridder","Saran","Kapchagay",
 			"Khromtau","Alga"],
         "spyNames": ["Borat", "Azamat", "Oksana", "Asimbala", "Boltok", "Biram", "Bilak", "Yamak", "Ludmila ", "Bilo"]
+    },
+	{
+		"name": "The Selkups",
+		"leaderName": "Vonya",
+		"adjective": ["Selkup"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "There is only one path for us; forwards. Prepare yourselves.",
+		"attacked": "An aggressive mount must be broken in.",
+		"defeated": "We are defeated, but not destroyed. Leave us now to fish in peace.",
+		"introduction": "I am Vonya, Prince of the Narym and leader of the Skewbald Horde. Respect our way of life, and we will respect yours.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+        "outerColor": [84,148,96],
+        "innerColor": [7,25,24],
+
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Fish is the Essence of Life",
+		"uniques": ["[+1 Happiness, +1 Food, +1 Production] from every [Fish]","Gain a free [Selkup Bonus] [in all cities]"],
+		"cities": ["Narym","Kargasok","Kulayka","Al'myak","Shayglgynak","Kuchuk","Ymaraul","Varz Kara","Akbalyk","Karganak",
+			"Alatael","Karat Nyr","Varsed","Ishtan","Muzur Kara","Nazin","Chezapka","Nivvy Ky","Kuingol","Kindalen Akkel","Naunak",
+			"Chussob","Saiga","Istok","Azhyg","Uydan","Kiya","Tez Tyy Mad","Tuglidet","Pyrz Ketpar","Aygoran","Kazranad","Nagotka",
+			"Paraby Ky","Syy Ky","Sandzhik","Kverel","Peel Ed","Keyalgara","Chverkhel","Loz Ky","Pirchiny"],
+        "spyNames": ["Kichey", "Taibokhta", "Vagai", "Ichche", "Natanka", "Machenkat", "Chvyochshemble", "Pazhyne", "Kangyrsylja", "Jompa"]
     },
 	
 	
