@@ -197,6 +197,19 @@
 		"requiredTech": "Currency"
 		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [[Täq] ability] promotion"],
 	},
+	{
+		"name": "Cosmodrome",
+        "replaces": "Spaceship Factory",
+		"uniqueTo": "Republic of Kazakhstan",
+		"production": 3,
+		"specialistSlots": {"Engineer": 2},
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]",
+		"Production to [Science] conversion in cities changed by [+25]%"],
+		"requiredTech": "Robotics"
+	},
 	
 	
 	

@@ -2055,6 +2055,22 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "T-72",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Republic of Kazakhstan",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit",
+		"[+1] Movement <in [Friendly Land] tiles>"],
+		"promotions": ["Amphibious"],
+		"attackSound": "tankshot"
+	},
 	
 	
 	
