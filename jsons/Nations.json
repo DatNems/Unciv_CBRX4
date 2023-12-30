@@ -1561,7 +1561,7 @@
 
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Nurly Zhol",
-		"uniques": ["[+1 Science] from every [Strategic resource]","[+1 Production] from every [Mine]"],
+		"uniques": ["[+1 Science] from every [Strategic resource]","[+1 Production] from every [Mine] <in [Luxury resource] tiles>"],
 		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Semey","Pavlodar","Oskemen","Atyrau",
 			"Kostanay","Kyzylorda","Oral","Petropavl","Aktay","Zhanaozen","Temirtau","Turkestan","Kokshetau","Taldykorgan","Ekibastuz",
 			"Rudny","Jezkazgan","Balkash","Satpayev","Kentay","Zhetisay","Kaskelen","Stepnogorsk","Kulsary","Ridder","Saran","Kapchagay",
