@@ -2089,7 +2089,16 @@
 		"promotions": ["Amphibious"],
 		"attackSound": "horse"
 	},
-	
+	{
+		"name": "Ortogh",
+		"unitType": "Civilian",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Mongolia (Sorghaghtani)",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Trade Center] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	
 	
 	

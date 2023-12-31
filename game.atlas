@@ -74,65 +74,72 @@ NationIcons/Makhnovia
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Mongolia (Sorghaghtani)
+  rotate: false
+  xy: 1112, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Pontus
   rotate: false
-  xy: 1112, 276
+  xy: 1220, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Qarmatia
   rotate: false
-  xy: 1220, 384
+  xy: 1328, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Republic of Kazakhstan
   rotate: false
-  xy: 1328, 384
+  xy: 1436, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Royal Hungary
   rotate: false
-  xy: 1328, 276
+  xy: 1436, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Afsharids
   rotate: false
-  xy: 1760, 276
+  xy: 1868, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Finns
   rotate: false
-  xy: 1868, 384
+  xy: 140, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Selkups
   rotate: false
-  xy: 1868, 276
+  xy: 248, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 140, 168
+  xy: 356, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Visigothic Kingdom
   rotate: false
-  xy: 356, 168
+  xy: 572, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -223,77 +230,84 @@ UnitIcons/Longbowmen
   index: -1
 UnitIcons/Najjde
   rotate: false
-  xy: 1112, 384
+  xy: 1112, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ortogh
+  rotate: false
+  xy: 1220, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ransom Caravan
   rotate: false
-  xy: 1220, 276
+  xy: 1328, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Savaran e Saltanati
   rotate: false
-  xy: 1436, 384
+  xy: 1544, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scythed Chariot
   rotate: false
-  xy: 1436, 276
+  xy: 1544, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Singulares
   rotate: false
-  xy: 1544, 384
+  xy: 1652, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skewbald Rider
   rotate: false
-  xy: 1544, 276
+  xy: 1652, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Szekely Guardsman
   rotate: false
-  xy: 1652, 384
+  xy: 1760, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/T-72
   rotate: false
-  xy: 1652, 276
+  xy: 1760, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tachanka
   rotate: false
-  xy: 1760, 384
+  xy: 1868, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uqaylid Outrider
   rotate: false
-  xy: 248, 168
+  xy: 464, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Xazg
   rotate: false
-  xy: 464, 168
+  xy: 680, 168
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

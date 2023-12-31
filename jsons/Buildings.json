@@ -229,6 +229,18 @@
 			"Provides 1 extra copy of each improved luxury resource near this City"],
 		"requiredTech": "Optics"
 	},
+	{
+		"name": "Seirech'e Sum",
+        "replaces": "Temple",
+		"uniqueTo": "Mongolia (Sorghaghtani)",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
+		"All newly-trained [Military] units [in this city] receive the [Great Generals I] promotion"]
+	},
 	
 	
 	
