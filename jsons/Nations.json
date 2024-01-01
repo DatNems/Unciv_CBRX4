@@ -1572,6 +1572,7 @@
 		"name": "The Selkups",
 		"leaderName": "Vonya",
 		"adjective": ["Selkup"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
         "startIntroPart1": "",
@@ -1610,7 +1611,7 @@
         "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
 		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
 		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
-		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
+		"introduction": "I am Sorghaghtani, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
 		"neutralHello": "Hello.",
 		"hateHello": "So what now?",
 		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
@@ -1618,12 +1619,74 @@
 		"innerColor": [58,21,92],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Queen of Khans",
-		"uniques": ["+1 Gold, +1 Production] from each Trade Route"],
+		"uniques": ["+1 Gold, +1 Production] from each Trade Route"], //what even is this owo
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Erketu", "Jajiradai", "Khadan", "Mongge", "Nachin", "Atlani", "Barghujin", "Chakha", "Ebegei", "Jaliqai"]
+    },
+	{
+		"name": "The Alaouites",
+		"leaderName": "Ismail ibn Sharif",
+		"adjective": ["Moroccan"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am Ismail ibn Sharif. I am the living embodiment of Morroco, mother and father of all civilizations.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Generous Morroco makes you this offer.",
+
+		"outerColor": [111, 41, 35],
+		"innerColor": [235, 242, 199],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ruby of the Farthest West",
+		"uniques": ["[+10]% Production when constructing [Wonders] buildings [in all cities] <when not at war>",
+		"[+10]% Production when constructing [Military] units [in all cities] <when at war>"],
+		"cities": ["Meknes","Marrakech","Fès","Rabat","Salé","Tangier","Agadir","Tetouan","Taroudant",
+			   "Mogador","Tuat","Sijilmasa","Oujda","Timbuktu","Gao","Djenne","Kenitra","Tafilalt","Ouarzazate","Essaouira",
+			   "Taza","Elksar Elkebir","Azamor","Safi","Tagmadart","Debdou","Illigh","Dila","Khemisset"],
+        "spyNames": ["Rachid", "Murad", "Ahmed", "Abdelkader", "Abdallah", "Abdalmalik", "Esquega", "Zaydana", "Khanata", "Khalid"]
+    },
+	{
+		"name": "The Mamluks",
+		"leaderName": "Shajar al-Durr",
+		"adjective": ["Mamluk"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "My mamluks will tear through your weak armies... I've seen dynasties fall, yours will be no different.",
+		"attacked": "You seem to want to threaten me. This slight will not be taken lightly.",
+		"defeated": "My name is etched in history. Will yours be?",
+		"introduction": "Greetings, stranger. Are you here to try and seize my throne? You are not the first.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "How about this offer?",
+
+		"outerColor": [239, 222, 202],
+		"innerColor": [169, 90, 13],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Tree of Pearls",
+		"uniques": ["[+1 Production, +1 Gold] from every [Fort] <in tiles without [Hill]>"], 
+		"cities": ["Cairo","Alexandria","Damietta","Rashid","Mansoura","Damnahur","Minya","Asyut","Qus",
+			   "Tanta","Faiyum","Al-Kulzum","Giza","Mit Ghamr","Al-Bahnasa","El Mahalla El Kubra","Akhmim","Gideila","Faraskur","El Tor",
+			   "Beni Suef","Atfih","Taba","Al-Ashmunayn","El Qoseir","Girga","Aswan","Edfu","Luxor",
+			   "Al Wajh","Arish","Gaza","Damascus","Ain Jalut","Tripoli","Hama","Aleppo","Homs","Jerusalem","Dongola","Antioch"],
+        "spyNames": ["As-Salih", "Shajarat", "Zadu", "Qutlughmalik", "Khalil", "Izz al-Din", "Turanshah", "Baybars", "Al-Nasir Muhammad", "Qaitbay"]
     },
 	
 	
@@ -1965,7 +2028,7 @@
 		"cities": ["Zanzibar"]
 	},
 
-	{
+	 {
 		"name": "Almaty",
 		"adjective": ["Almaty"],
 		"cityStateType": "Militaristic",
@@ -1976,7 +2039,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [152,0,241],
 		"cities": ["Almaty"]
-	},
+	}, 
 	{
 		"name": "Belgrade",
 		"adjective": ["Belgrade"],

@@ -241,6 +241,18 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
 		"All newly-trained [Military] units [in this city] receive the [Great Generals I] promotion"]
 	},
+	{
+		"name": "Sabil-Kuttab",
+        "replaces": "Garden",
+		"uniqueTo": "The Mamluks",
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]",
+		"[+1 Science] from every [Walls] <in this city>","[+1 Science] from every [Castle] <in this city>"
+		"[+1 Science] from every [Arsenal] <in this city>","[+1 Science] from every [Military Base] <in this city>"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
 	
 	
 	

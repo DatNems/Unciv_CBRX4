@@ -309,13 +309,25 @@
 	},
 	{
 		"name": "Trade Center",
+		"uniqueTo": "Mongolia (Sorghaghtani)",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built",
 		"[+1 Gold] for each adjacent [Road]","[+1 Gold] for each adjacent [Railroad]",
 		"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
-	
+	{
+		"name": "Kasbah",
+		"uniqueTo": "The Alaouites",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"turnsToBuild": 6,
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"techRequired": "Chivalry",
+		"uniques": ["Gives a defensive bonus of [50]%","[+1 Gold, +1 Production, +1 Food] for each adjacent [City center]"],
+		"shortcutKey": "O"
+	},
 	
 	
 	
