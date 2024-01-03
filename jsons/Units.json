@@ -2144,6 +2144,22 @@
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Askawr",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Kanem-Bornu",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
+		"Never appears as a Barbarian unit","[+25]% Strength <when fighting in [unimproved] tiles>"],
+		"attackSound": "horse"
+	},
 	
 	
 	

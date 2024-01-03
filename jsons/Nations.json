@@ -1719,6 +1719,38 @@
 			   "Mongeri","Motema","Tongoma","Leicester","Bumbuna","Yengema","Zimmi","Tikonko","Blama","Tombo","Baiima","Kamabai"],
         "spyNames": ["Blucke", "George", "Hazeley", "Boston", "Kizell", "Marrant", "Perkins", "Tye", "Washington", "Clarkson"]
     },
+	{
+		"name": "Kanem-Bornu",
+		"leaderName": "Idirs Alauma",
+		"adjective": ["Kanemu"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "It is my charge to ensure the prosperity of my empire, and with that charge I must now bring upon you war.",
+		"attacked": "You dare attack the Kanem-Bornu Empire, the safest and most well-guarded empire in the entire world? I must tell you, that you will NOT be succesful.",
+		"defeated": "You are a barbarian. I wish for the sake of humanity that you are consumed by the endless sands",
+		"introduction": "I have not seen people who dress as you do before - you must teach me of your kingdom. Are you too a follower of the true faith?",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "How about this offer?",
+
+		"outerColor": [167, 146, 99],
+		"innerColor": [1, 39, 53],
+		"favoredReligion": "Islam",
+		"uniqueName": "None to Fear But God",
+		"uniques": ["[+1] Movement <for [Civilian] units>","[+1] Movement <for [Archery] units>",
+		"[+20]% Strength for cities"], 
+		"cities": ["Ngazargamu","Njimi","Manan","Yao","Nkongsamba","Ndjamena","Bornu","Tahoua","Abalak",
+			   "Bafoussam","Birni","Bamenda","Madaoua","Ngaoundere","Tessaoua","Magaria","Maradi","Agadem","Diffa","Djimi",
+			   "Dunkula","Djado","Nayy","Magzha","Djadja","Kuri","Badi","Kawar","Tadmekka",
+			   "Kawkaw","Gazargamo","Tamalma"],
+        "spyNames": ["Dabbalemi", "Bulala", "Umar", "Dunamami", "Saifawa", "Katakarmabe", "Fulani", "Shuwa", "Rabih", "Ibn Furtu"]
+    },
 	
 	
 	

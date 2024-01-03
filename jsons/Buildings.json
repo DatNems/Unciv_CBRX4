@@ -237,9 +237,9 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
 		"All newly-trained [Military] units [in this city] receive the [Great Generals I] promotion"]
+		"requiredTech": "Philosophy",
 	},
 	{
 		"name": "Sabil-Kuttab",
@@ -253,6 +253,24 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 	},
+	{
+		"name": "Wasiliram",  //should be Caravansary
+        "replaces": "Market",
+		"uniqueTo": "Kanem-Bornu",
+		"gold": 2,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Faith] from every specialist [in this city]"],
+		"requiredTech": "Currency"
+	},
+	
+	
+	
+	
+	
+	
 	
 	
 	
