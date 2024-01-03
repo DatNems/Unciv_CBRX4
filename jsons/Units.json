@@ -2130,6 +2130,20 @@
 		"promotions": ["[Salihi] ability"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Black Loyalist",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Sierra Leone",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"], //not fully tested
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
 	
 	
 	

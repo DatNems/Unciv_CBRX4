@@ -815,8 +815,8 @@
     }
 	{
         "name": "[Salihi] ability",
-        "uniques": ["[+10]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-			"[+15]% Strength <when defending> <within [1] tiles of a [City center]> <in [Friendly Land] tiles>"]
+        "uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength <within [1] tiles of a [City center]> <in [Friendly Land] tiles>"]
     },
 	
 	

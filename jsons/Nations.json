@@ -1688,6 +1688,37 @@
 			   "Al Wajh","Arish","Gaza","Damascus","Ain Jalut","Tripoli","Hama","Aleppo","Homs","Jerusalem","Dongola","Antioch"],
         "spyNames": ["As-Salih", "Shajarat", "Zadu", "Qutlughmalik", "Khalil", "Izz al-Din", "Turanshah", "Baybars", "Al-Nasir Muhammad", "Qaitbay"]
     },
+	{
+		"name": "Sierra Leone", //to do: company ship (trade ship UU)
+		"leaderName": "Thomas Peters",
+		"adjective": ["Sierra Leonese"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "Sorry it's come to this. Sometimes there's a price to pay to ensure one's freedom for years to come.",
+		"attacked": "I'm used to bein' treated like dirt by those that think they're better than us... But we are revolutionaries, and we aren't afraid to fight back!",
+		"defeated": "I refuse to believe that this country can just be taken from us. I don't want to be in a world where Freetown lies in captivity.",
+		"introduction": "Welcome to this here colony of Sierra Leone! I'm Thomas Peters, a former revolutionary. We're a small, yet close community of free men. Make yourself at home here at Freetown!",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "It would help me out if you could show me a little generosity, please.",
+
+		"outerColor": [2, 39, 48],
+		"innerColor": [110, 208, 63],
+		"favoredReligion": "Islam",
+		"uniqueName": "Return ye Ransomed Sinners Home",
+		"uniques": ["[+15]% growth [in all cities] <on foreign continents>","[-15]% Culture cost of natural border growth [in all cities] <on foreign continents>"], 
+		"cities": ["Freetown","Granville Town","Falaba","Waterloo","Port Loko","Bo","Bonthe","Kenema","Koidu",
+			   "King Toms's Point","Mandimansa","Bunce","Lunsar","Kabala","Magburaka","Kambia","Moyamba","Kailahun","Pandebu-Tokpombu","Makeni",
+			   "Pujehun","Bendugu","Kamakwie","Newton","Segbwema","Benguema","Mattru Jong","Sembehun","Pedembu",
+			   "Mongeri","Motema","Tongoma","Leicester","Bumbuna","Yengema","Zimmi","Tikonko","Blama","Tombo","Baiima","Kamabai"],
+        "spyNames": ["Blucke", "George", "Hazeley", "Boston", "Kizell", "Marrant", "Perkins", "Tye", "Washington", "Clarkson"]
+    },
 	
 	
 	
