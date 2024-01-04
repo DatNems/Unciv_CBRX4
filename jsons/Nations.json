@@ -1599,7 +1599,7 @@
         "spyNames": ["Kichey", "Taibokhta", "Vagai", "Ichche", "Natanka", "Machenkat", "Chvyochshemble", "Pazhyne", "Kangyrsylja", "Jompa"]
     },
 	{
-		"name": "Mongolia (Sorghaghtani)",
+		"name": "Mongolia (Sorghaghtani)",  //trade uniques
 		"leaderName": "Sorghaghtani",
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
@@ -1751,6 +1751,51 @@
 			   "Kawkaw","Gazargamo","Tamalma"],
         "spyNames": ["Dabbalemi", "Bulala", "Umar", "Dunamami", "Saifawa", "Katakarmabe", "Fulani", "Shuwa", "Rabih", "Ibn Furtu"]
     },
+	{
+		"name": "Saba-Da'amat",  //entire civ is trade focussed
+		"leaderName": "Makeda",
+		"adjective": ["Saban"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
+		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
+		"defeated": "God and history will remember your actions this day. I hope you are ready for your impending judgment.",
+		"introduction": "A thousand welcomes to our fair nation. I am Selassie, the Ras Tafari Makonnen and Emperor of Ethiopia, your humble servant.",
+		"tradeRequest": "I request that you consider this offer between our two peoples. I believe it will do us both good.",
+
+		"neutralHello": "Welcome.",
+
+		"hateHello": "What do you want?",
+
+        "outerColor": [74, 18, 26],
+        "innerColor": [194, 169, 126],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Queen of Sheba",
+		"uniques": ["[+10]% [Gold] [in all cities] <with [1] to [1] neighboring [Luxury resource] tiles>",
+		"[+20]% [Gold] [in all cities] <with [2] to [2] neighboring [Luxury resource] tiles>",
+		"[+30]% [Gold] [in all cities] <with [3] to [3] neighboring [Luxury resource] tiles>",
+		"[+25]% [Food] from Trade Routes <during a Golden Age>","[+25]% [Production] from Trade Routes <during a Golden Age>"], //not working yet
+		"cities": ["Azeba","Ma'rib","Adulus","Sana'a","Aksum","Tamna","Qohaito","Aden","Qarnawu",
+			"Zeila","Zafar","Zula","Radman","Yeha","Hadaqan","As-Sawa","Farasan","Wuqro","As'Aran",
+			"Sirwah","Wuhwan","Shabwa","Hidaybu","Yathill","Zabir","Dhubhan","Keskese",
+			"Jurash","As-Safil","Kutal","Na'd","Rayhan","Adi Ugri","Qattan","Tayab","Heis","Ramat",
+			"As-Shihr","Matara","Al-Mi'sa","Bosaso","Ararat al-Barira","Shibam","Abjur","Ghayman",
+			"Ha'iz","Hina az-Zurayn","Qani","Tafid","Malao"],
+        "spyNames": ["Tamrin", "Menelik", "Zadok", "Kandake", "Nourad", "Azaryas", "Lillith", "Bilqis", "Yekuno", "Täfäri"]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

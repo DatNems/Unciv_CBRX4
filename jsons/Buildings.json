@@ -265,6 +265,23 @@
 		"uniques": ["[+1 Faith] from every specialist [in this city]"],
 		"requiredTech": "Currency"
 	},
+	{
+		"name": "Gwbn",
+        "replaces": "Temple",
+		"uniqueTo": "Saba-Da'amat",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
+		"[+5]% Golden Age length","[+5]% of excess happiness converted to [Science]"]
+	},
+	
+	
+	
+	
+	
 	
 	
 	
