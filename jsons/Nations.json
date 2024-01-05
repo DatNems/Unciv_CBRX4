@@ -1761,10 +1761,10 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
+        "declaringWar": "I don't prefer conflict, but when there is no resolution besides violence, then I shall not oppose the will of Saba.",
 		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
-		"defeated": "God and history will remember your actions this day. I hope you are ready for your impending judgment.",
-		"introduction": "A thousand welcomes to our fair nation. I am Selassie, the Ras Tafari Makonnen and Emperor of Ethiopia, your humble servant.",
+		"defeated": "Ah, so this is how it ends. I suppose not everyone gets remembered by history, after all...",
+		"introduction": "Hello, my name is Makeda- I rule the lands of Saba and Da'amat. Tell me, do you have any further interests beyond diplomacy?",
 		"tradeRequest": "I request that you consider this offer between our two peoples. I believe it will do us both good.",
 
 		"neutralHello": "Welcome.",
@@ -1787,6 +1787,132 @@
 			"As-Shihr","Matara","Al-Mi'sa","Bosaso","Ararat al-Barira","Shibam","Abjur","Ghayman",
 			"Ha'iz","Hina az-Zurayn","Qani","Tafid","Malao"],
         "spyNames": ["Tamrin", "Menelik", "Zadok", "Kandake", "Nourad", "Azaryas", "Lillith", "Bilqis", "Yekuno", "Täfäri"]
+    },
+	{
+		"name": "Ndongo",  //placeholder texts+cities+graphics
+		"leaderName": "Ana Nzinga",
+		"adjective": ["Ndongo"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "placeholder",
+		"attacked": "placeholder",
+		"defeated": "placeholder",
+		"introduction": "placeholder",
+		"tradeRequest": "placeholder",
+
+		"neutralHello": "Welcome.",
+
+		"hateHello": "What do you want?",
+
+        "outerColor": [181, 27, 30],
+        "innerColor": [229, 223, 198],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Glory of the Ngola",
+		"uniques": ["Allied City-States provide [Culture] equal to [+100]% of what they produce for themselves"],  
+		"cities": ["M'banza-Kongo","Kavanga","Loango","Kabasa","Nkuna","Mpinda","Kakongo","Kwilu","Kongo dia Nlaza",
+			"Anziku","Matamba","Songo","Ngoyo","Incussu","Dingi","Dembo Amulassa","Bukameala","Wamba","Ovando",
+			"Pomba Samba","Ouma","Bokian","Mannebacani","Kinasso","Mossula","Mani Imbuila","Nganda",
+			"Ambriz"],
+        "spyNames": ["Lukeni", "Mpanzu", "Ngola", "Kibwe", "Mvemba", "Abena", "Asha", "Kifunji", "Mukambu", "Tanginika"]
+    },
+	{
+		"name": "Sultanate of Mogadishu",  //entire civ is trade focussed
+		"leaderName": "Abu Bakr ibn 'Umar",
+		"adjective": ["Mogadishawi"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You have surely crossed a line there. We cannot allow such injustice to continue, we will defend ourselves against your hostilities.",
+		"attacked": "Your futile attack is quite misguided. Unjust, as well, but you leave me no choice.",
+		"defeated": "Quite a shame... why must we fight and destroy it all, still here- I lay down by sword.",
+		"introduction": "Greetings, faraway traveler. I am Abu Bakr ibn Umar, the Shaikh of this humble Sultanate, may I show you around the great city?",
+		"tradeRequest": "I request that you consider this offer between our two peoples. I believe it will do us both good.",
+
+		"neutralHello": "Welcome.",
+
+		"hateHello": "What do you want?",
+
+        "outerColor": [225, 210, 185],
+        "innerColor": [36, 129, 111],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Port of Blinding Beauty",
+		"uniques": ["[+1 Gold] from every [Bonus resource]"],  //placeholder
+		"cities": ["Mogadishu","Hamr Weyne","Shangani","Afgoi","Merca","Barawa","Mnara","Hiraab","Aw Dhigle",
+			"Hamar Jajab","Arba Rukn","Warsheikh","Jami","Wanlawein","Balcad","Beledwein","Genale","Vardera","Giohar",
+			"Bur Hakaba","Meregh","Baidoa","Kismanyo","Bur Gao","Lugh","Eil","Hafun",
+			"Limey","Bardera","Maduna","Boassao","Afmadow","Gezeira","Niow","Ceelqoode"],
+        "spyNames": ["Fatuma", "Idman", "Basra", "Dugsilye", "Ilhaan", "Curreji", "Axmed", "Waare", "Qassim", "Gurxan"]
+    },
+	{
+		"name": "The Rozvi",  
+		"leaderName": "Changamire Dombo",
+		"adjective": ["Rozvi"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your actions have become too much to bear. Now, I must spill the blood of your people.",
+		"attacked": "You fool.",
+		"defeated": "But... how? What manner of magic did you employ?",
+		"introduction": "I am Changamire Dombo, king of the Rozvi. I trust you have heard rumors of my strength, and I assure you, they are all true. You would be wise not to test them.",
+		"tradeRequest": "I hear you have many fine goods on offer. Would you care to make a trade?",
+
+		"neutralHello": "Welcome.",
+
+		"hateHello": "What do you want?",
+
+        "outerColor": [68, 21, 36],
+        "innerColor": [229, 227, 201],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Chisadza Mhomwe",
+		"uniques": ["[Military] units gain the [[Rozvi] ability] promotion"],  
+		"cities": ["Danangombe","Khami","Manyanga","Bulawayo","Bindura","Masekesa","Mahungwe","Dambarare","Murewa",
+			"Naletale","Maremuca","Pfura","Nyanga","Manyika","Bikita","Mberengwa","Chiwundura","Tumbare","Guruuswa",
+			"Mabweadziva","Rapfupajena","Macardon","Shashi","Mapela","Zinjanja","Zimbabwe","Dembarare","Masikwesi","Zumbo"],
+        "spyNames": ["Chirisa", "Chikuyo", "Kambgun", "Tohwechipi", "Baswi", "Dhafa", "Chirisamuru", "Negamo", "Zhahare", "Tumbare"]
+    },
+	{
+		"name": "Eswatini",  //WLTKD uniques to do
+		"leaderName": "Labotsibeni Mdluli",
+		"adjective": ["Swazi"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Our King marches with us to battle. You stand alone.",
+		"attacked": "By the time this is over, we shall be tilling your lands and feasting on your riches.",
+		"defeated": "Long may your lands swelter and your peoples starve for this abominable act.",
+		"introduction": "Hail, foreigner, and welcome to Eswatini. I, Labotsibeni, her queen, extend my greeting.",
+		"tradeRequest": "I hear you have many fine goods on offer. Would you care to make a trade?",
+
+		"neutralHello": "Welcome.",
+
+		"hateHello": "What do you want?",
+
+        "outerColor": [146, 184, 221],
+        "innerColor": [3, 26, 33],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Fortress of Africa",
+		"uniques": ["[+50]% Production when constructing [Military] units [in all cities] <during We Love The King Day>"],  
+		"cities": ["Mbabane","Lobamba","Big Bend","Malkerns","Nhlagano","Mhlume","Hluti","Simunye","Siteki",
+			"Piggs Peak","Manzini","Ngomane","Vuvulane","Mpaka","Kwaluseni","Bhunya","Mhlambanyatsi","Mondi","Tabankulu",
+			"Hlatikulu","Bulembu","Kubuta","Tjaneni","Sidvokodvo","Lavumisa","Ngwenya","Nsoko","Mankayane"],
+        "spyNames": ["Dumsane", "Bhutana", "Benkovski", "Simanga", "Musa", "Jonathan", "Qinisile", "Gladys", "Ntfombi", "Temalangeni"]
     },
 	
 	

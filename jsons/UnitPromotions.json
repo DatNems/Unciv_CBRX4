@@ -818,7 +818,18 @@
         "uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength <within [1] tiles of a [City center]> <in [Friendly Land] tiles>"]
     },
-	
+	{
+        "name": "[Kilombo] ability",
+        "uniques": ["Can speed up construction of a building"]
+    },
+	{
+        "name": "[Rozvi] ability",
+        "uniques": ["[+25]% Strength <when fighting in [Bonus resource] tiles>","Earn [20]% of killed [Military] unit's [Strength] as [Culture]"]
+    },
+	{
+        "name": "[Missoca] ability", 
+        "uniques": ["[+1] Movement <when adjacent to a [non-[Missoca]] unit>","Unit will heal every turn, even if it performs an action <when adjacent to a [Missoca] unit>"]
+    },
 	
 	
 	//<in [Friendly Land] tiles>

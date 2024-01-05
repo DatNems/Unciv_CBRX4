@@ -328,6 +328,17 @@
 		"uniques": ["Gives a defensive bonus of [50]%","[+1 Gold, +1 Production, +1 Food] for each adjacent [City center]"],
 		"shortcutKey": "O"
 	},
+	{
+		"name": "Daaq Ah",
+		"uniqueTo": "Sultanate of Mogadishu",
+		"terrainsCanBeBuiltOn": ["Desert", "Hill"],
+		"turnsToBuild": 6,
+		"food": 1,
+		"gold": 1,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+1 Food, +2 Culture] <after discovering [Ecology]>","[+2 Food] <in [Coastal] tiles>"],
+		"shortcutKey": "O"
+	},
 	
 	
 	
