@@ -1945,7 +1945,7 @@
 		"name": "The Nivkh", //WLTKD uniques / resource generator
 		"leaderName": "Umu",
 		"adjective": ["Nivkh"],
-		"startBias": ["<<tundra"],
+		"startBias": ["Tundra"],
 		"preferredVictoryType": "Diplomatic",
 
         "startIntroPart1": "",
