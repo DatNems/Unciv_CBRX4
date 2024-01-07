@@ -311,6 +311,31 @@
 			"[+1 Production, +1 Culture] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
+	//Nivkh Nation Bonus
+	{
+		"name": "Nivkh Bonus",  
+		"uniqueTo": "The Nivkh",
+		"cost": 60,
+		"uniques": ["[+50]% Great Person generation [in this city] <during We Love The King Day>",  //not tested yet
+		"Unbuildable"],
+	},
+	{
+		"name": "Yukola Ryv",
+        "replaces": "Granary",
+		"uniqueTo": "The Nivkh",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+5]% Great Person generation [in this city]",
+			"[+1 Culture] whenever a Great Person is expended"],
+		"requiredTech": "Pottery"
+	},
+	
+	
+	
 	
 	
 	

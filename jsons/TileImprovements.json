@@ -331,7 +331,7 @@
 	{
 		"name": "Daaq Ah",
 		"uniqueTo": "Sultanate of Mogadishu",
-		"terrainsCanBeBuiltOn": ["Desert", "Hill"],
+		"terrainsCanBeBuiltOn": ["Desert"],
 		"turnsToBuild": 6,
 		"food": 1,
 		"gold": 1,

@@ -1914,6 +1914,62 @@
 			"Hlatikulu","Bulembu","Kubuta","Tjaneni","Sidvokodvo","Lavumisa","Ngwenya","Nsoko","Mankayane"],
         "spyNames": ["Dumsane", "Bhutana", "Benkovski", "Simanga", "Musa", "Jonathan", "Qinisile", "Gladys", "Ntfombi", "Temalangeni"]
     },
+	{
+		"name": "Dzungar Khanate",
+		"leaderName": "Galdan Boshugtu",
+		"adjective": ["Dzungar"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The valleys are fresh with the murmurs of conquest.",
+		"attacked": "From the shadows of the hills we will come.",
+		"defeated": "I may be defeated, but another wishing to unite our legacy will come.",
+		"introduction": "Welcome stranger, I am Galdan Khan. Make yourself comfortable in our pastures.",
+		"neutralHello": "Hello.",
+		"hateHello": "So what now?",
+		"tradeRequest": "My people suffer. As a friend, I ask your aide.",
+		"outerColor": [233,202,184],
+		"innerColor": [23,90,156],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Last Nomad Empire",
+		"uniques": ["[Land] units gain the [[Dzungar] ability] promotion"],
+		"cities": ["Ili","Tarbagatai","Uliastai","Irtysh","Ürümqi","Yulduz","Manas","Hami","Kobdo","Kur-Karausu","Ölgii",
+			"Altai","Kyakhta","Choibalsan","Öndörkhaan","Mörön","Kulun","Tara","Uriankhai","Khatgal",
+			"Tokmak","Kucha","Lhasa","Turpan","Yarkand","Kashgar","Khalban","Nakchu","Burang","Chamdo"],
+        "spyNames": ["Khara Khula", "Anu", "Amursana", "Sengge", "Erdeni Batur", "Lama Dorji", "Dawachi", "Tsewang Rabtan", "Septen", "Zaya Pandita"]
+    },
+	{
+		"name": "The Nivkh", //WLTKD uniques / resource generator
+		"leaderName": "Umu",
+		"adjective": ["Nivkh"],
+		"startBias": ["<<tundra"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": ">You are abominable! You shall become yet another villain overcome by the proud warriors of the Nivkh.",
+		"attacked": "...",
+		"defeated": "The story isn't supposed to end like this. Mother, father... I'm sorry...",
+		"introduction": "Hello, my name is Umu. If you do not stand in the way of my justice, then by all means, let's discuss.",
+		"neutralHello": "Hello.",
+		"hateHello": "So what now?",
+		"tradeRequest": "My people suffer. As a friend, I ask your aide.",
+		"outerColor": [222,213,168],
+		"innerColor": [9,100,118],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Songs of the Bear God",
+		"uniques": ["Gain a free [Nivkh Bonus] [in all cities]"], 
+		"cities": ["Tyr","Ngyl'vo","Ytyk'","Visk'vo","Miyoo Gaxan","Okha","Yrkyr'","Nurgan","Lung'yo","Matnyr'","Takhta",
+			"Oremif","Chir-Unvd","Dagi","Pogibi","Nil'vo","Ngyd'","Vyrgyt","Maskaluvo","Khankes'",
+			"Viakhtu","Valuevo","Innoken","Chkharvo","Argy-Pagi","Nanghar","Pogobo","Nappi","Chlya","Tym",
+			"Uskvo","Kalma","Evay","Tamlavo","Kharkor'vo","Vachi","Chavyo","Mgrach","Puir","Tungor",
+			"Ekhabi","Tyrmyts'","Pyrki","Noglvo","Urkdt'","Tangi","Korvo","Shantar","Koibgervo","Pomyt'"],
+        "spyNames": ["Kharkhin", "Tutin", "Pilgun", "Smedun", "Vadun", "Taligun", "Chryguk", "Aisik", "Lazruk", "Ngokhtik"]
+    },
 	
 	
 	

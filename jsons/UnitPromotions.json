@@ -830,13 +830,17 @@
         "name": "[Missoca] ability", 
         "uniques": ["[+1] Movement <when adjacent to a [non-[Missoca]] unit>","Unit will heal every turn, even if it performs an action <when adjacent to a [Missoca] unit>"]
     },
+	{
+        "name": "[Dzungar] ability",
+        "uniques": ["May Paradrop up to [3] tiles from inside friendly territory <within [1] tiles of a [Mountain]>"]
+    },
 	
 	
 	//<in [Friendly Land] tiles>
 	
 	
 	
-	
+	//
 	
 	
 	

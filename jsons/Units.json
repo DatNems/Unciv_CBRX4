@@ -2232,6 +2232,76 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "Ulan Zalata",
+		"replaces": "Lancer",
+		"uniqueTo": "Dzungar Khanate",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit","[+1] Movement <in [Hill] tiles>"],
+		"promotions": ["Formation I","Charge"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Zanbur Cavalry",
+		"replaces": "Cavalry",
+		"uniqueTo": "Dzungar Khanate",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Kakh Tu",  //no food unique yet
+		"replaces": "Archer",
+		"uniqueTo": "The Nivkh",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"promotions": ["Woodsman"],
+		"uniques": ["Can transform to [Kakh Mu] <in [Coastal] tiles>"],
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Kakh Mu",  //no food unique yet
+		"uniqueTo": "The Nivkh",
+		"unitType": "Ranged Water",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"uniques": ["Can transform to [Kakh Tu] <within [1] tiles of a [Coastal]>", "Unbuildable"],
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
