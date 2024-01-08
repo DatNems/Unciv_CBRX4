@@ -333,6 +333,27 @@
 			"[+1 Culture] whenever a Great Person is expended"],
 		"requiredTech": "Pottery"
 	},
+	{
+		"name": "Sanseong", //no unique yet
+        "replaces": "Walls",
+		"uniqueTo": "Goguryeo",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Deer Terrace Pavilion",
+        "replaces": "Garden",
+		"uniqueTo": "Shang",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]",
+		"[+1 Culture] from every [Luxury resource] <in this city>",
+		"[+1 Culture] from every [Luxury resource] <in this city> <during We Love The King Day>"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
 	
 	
 	

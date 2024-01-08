@@ -834,6 +834,10 @@
         "name": "[Dzungar] ability",
         "uniques": ["May Paradrop up to [3] tiles from inside friendly territory <within [1] tiles of a [Mountain]>"]
     },
+	{
+        "name": "[Goguryeo] ability",
+        "uniques": ["Double movement in [Hill]"]
+    },
 	
 	
 	//<in [Friendly Land] tiles>

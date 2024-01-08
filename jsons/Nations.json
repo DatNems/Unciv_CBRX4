@@ -1970,6 +1970,70 @@
 			"Ekhabi","Tyrmyts'","Pyrki","Noglvo","Urkdt'","Tangi","Korvo","Shantar","Koibgervo","Pomyt'"],
         "spyNames": ["Kharkhin", "Tutin", "Pilgun", "Smedun", "Vadun", "Taligun", "Chryguk", "Aisik", "Lazruk", "Ngokhtik"]
     },
+	{
+		"name": "Goguryeo",  //wtf this civ is useless lol -  golden age bonuses to do
+		"leaderName": "Gwaanggaeto",
+		"adjective": ["Goguryeon"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The time for speeches is long past. Any further diplomacy between us must be conducted on the battlefield!",
+		"attacked": "Then send all the armies you want. None shall overwhelm Goguryeo's stout-hearted soldiers.",
+		"defeated": "You have triumphed today, and for that you have my begrudging admiration. Not many have done battle with my armies and come away victorious.",
+		"introduction": "Good morrow to you, foreign leader. I am Gwanggaeto, sovereign over the lands called Goguryeo. Shall we discuss how to divide this world between our two great nations?",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		"outerColor": [126,39,17],
+		"innerColor": [190,179,142],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Eternal Rejoice",
+        "uniques": ["[+5]% of excess happiness converted to [Science] <while the empire is happy>", //placeholder
+		"[Mounted] units gain the [[Goguryeo] ability] promotion <when adjacent to a [Great General] unit>", //doesn't work
+		"Gain a free [Sanseong] [in puppeted cities]"], 
+		"cities": ["Gungnae","Jolbon","Mokjeo","Namso","Pyongyang","Shin","Hyenondo","Gaemo","Baegam","Yodong","Ansi","Geonan",
+			"Bisa","Ogol","Bakjak","Buyeo","Wiryeseong","Okjeo","Uiju","Heunghwa","Jeongju","Yeonghae","Jeong-yung",
+			"Pyeonglo","Sagju","Yeongheung","Maengju","Cheongsae","Unju","Ansu","Yeongsag","Yodeog","Yeongdeog","Jeongbyeon","Wiwon"],
+        "spyNames": ["Kim", "Baekseok", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
+    },
+	{
+		"name": "Shang", //sacrificing uniques/WLTKD
+		"leaderName": "Daji",
+		"adjective": ["Shang"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I wonder, would that drove of cattle you call an 'army' pair well with wine? Well, only one way to find out.",
+		"attacked": "Mm, exquisite. My ministers always scold me when I play with my food, but I do so enjoy it when they struggle.",
+		"defeated": "No! I refuse! I shall never drink the gall of defeat! You cannot force me!",
+		"introduction": "Welcome, sweetling, to China. I am called Daji, and I would be pleased to assist you in sampling all the delicacies our fair land has to offer.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [36, 45, 35],
+        "innerColor": [181,120,68],
+
+		"favoredReligion": "Taoism",
+		"uniqueName": "Juichi Roulin",
+		"uniques": ["Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately"], //placeholder
+		"cities": ["Zhaoge","Yinxu","Yanshi","Banpo","Anyang","Erlitou","Machang","Dawenkou","Xixiahou","Yuanjunmiao",
+			"Yiaotun","Xinxiang","Zhengzhou","Qingliangang","Miaodigou","Xingtai","Luoyang","Dafangzhuang","Lantian"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+	
+	
+	
+	
+	
+	
 	
 	
 	
