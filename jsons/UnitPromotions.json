@@ -246,7 +246,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
@@ -693,7 +693,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -837,6 +837,22 @@
 	{
         "name": "[Goguryeo] ability",
         "uniques": ["Double movement in [Hill]"]
+    },
+	{
+        "name": "[Tie Ren] ability",
+        "uniques": ["[+20]% Strength when stacked with [Great General]"]
+    },
+	{
+        "name": "[Khoshut] ability",
+        "uniques": ["[+20]% Strength <within [2] tiles of a [Holy Site]>"]
+    },
+	{
+        "name": "[Kuta] ability",
+        "uniques": ["Earn [5]% of killed [Military] unit's [Cost] as [Faith]"]
+    },
+	{
+        "name": "[Wahgi] ability",
+        "uniques": ["Heal this unit by [10] HP <upon being promoted>"]
     },
 	
 	

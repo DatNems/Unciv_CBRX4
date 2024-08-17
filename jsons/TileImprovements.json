@@ -339,6 +339,46 @@
 		"uniques": ["[+1 Food, +2 Culture] <after discovering [Ecology]>","[+2 Food] <in [Coastal] tiles>"],
 		"shortcutKey": "O"
 	},
+	{
+		"name": "Durga",
+		"uniqueTo": "Vijaynagara",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 6,
+		"production": 1,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Only available <with [0] to [0] neighboring [Durga] tiles>"
+		]
+	},
+	{
+		"name": "Cold-Fire Grounds",
+		"uniqueTo": "Noongar",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"turnsToBuild": 6,
+		"food": 1,
+		"techRequired": "Trapping",
+		"uniques": ["[+1 Food] for each adjacent [resource]"]
+	},
+	{
+		"name": "Kan",
+		"uniqueTo": "The Tehuelche",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+		"food": 1,
+		"techRequired": "Trapping",
+		"uniques": ["[+1 Faith] <starting from the [Classical era]>",
+		"[+1 Production] <starting from the [Medieval era]>",
+		"[+1 Culture] <starting from the [Renaissance era]>",
+		"[+1 Gold] <starting from the [Industrial era]>",
+		"[+1 Science] <starting from the [Modern era]>",
+		"[+1 Production] <starting from the [Atomic era]>",
+		"[+1 Science] <starting from the [Information era]>",
+		"[+1 Culture] <starting from the [Future era]>",
+		"Cannot be built on [Hill] tiles",
+		"Cannot be built on [resource] tiles"]
+	},
 	
 	
 	
@@ -367,7 +407,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{
