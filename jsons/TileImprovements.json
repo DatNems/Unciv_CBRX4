@@ -229,7 +229,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
+        	"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 		]
 	},
@@ -282,7 +282,7 @@
 		"techRequired": "Sailing",
 		"uniques": ["Can only be built to improve a resource", 
         "Cannot be built on [Strategic resource] tiles",
-		"Constructing it will take over the tiles around it and assign them to your closest city", 
+		"Gain control over [all] tiles in a [1]-tile radius", 
 		"Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
@@ -304,7 +304,7 @@
 		"culture": 2,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Irremovable", "Gives a defensive bonus of [50]%",
-		"[+1 Culture] for each adjacent [Mountain]", "Only available <with [0] to [0] neighboring [Schloss] tiles>",],
+		"[+1 Culture] for each adjacent [Mountain]", "Unavailable <with [1] to [3] neighboring [Schloss] tiles>"],
 		"shortcutKey": "O"
 	},
 	{
@@ -359,7 +359,8 @@
 		"turnsToBuild": 6,
 		"food": 1,
 		"techRequired": "Trapping",
-		"uniques": ["[+1 Food] for each adjacent [resource]"]
+		"uniques": ["[+1 Food] for each adjacent [resource]",
+		"Must be next to [resource]"]
 	},
 	{
 		"name": "Kan",
@@ -378,6 +379,17 @@
 		"[+1 Culture] <starting from the [Future era]>",
 		"Cannot be built on [Hill] tiles",
 		"Cannot be built on [resource] tiles"]
+	},
+	{
+		"name": "Chatallata",
+		"uniqueTo": "Tiwanaku",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Tundra"],
+		"turnsToBuild": 6,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Science, +2 Faith] for each adjacent [City centre]",
+		"[+1 Science, +1 Faith] for each adjacent [Mountain]",
+		"[+1 Science, +1 Faith] <after discovering [Astronomy]>"
+		"Cannot be built on [Hill] tiles"]
 	},
 	
 	

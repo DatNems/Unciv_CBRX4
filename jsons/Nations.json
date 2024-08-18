@@ -2445,7 +2445,7 @@
 		"tradeRequest": "My people suffer. As a friend, I ask your aide.",
 		"outerColor": [128,27,17],
 		"innerColor": [196,206,119],
-		"favoredReligion": "Tengriism",
+		"favoredReligion": "Christianity",
 		"uniqueName": "Heroic Decade",
 		"uniques": ["New [Military] units start with [15] Experience [in all cities] <within [3] tiles of a [Pasture]>",   //placeholder 
 		"[2] free [Lanceiro Negro] units appear <upon conquering a city> <starting from the [Renaissance era]>"],  //needs testing, multi-trigger?
@@ -2453,6 +2453,59 @@
 			"Laguna","Rio Grande","Santa Maria","Cachoeira do Sul","Triunfo","Camaquã","São José do Norte","Lages","Jaguarão","Desterro",
 			"São Pedro do Sul","São Leopoldo","Sant'Ana do Livramento","Candiota","Uruguaiana"],
         "spyNames": ["José", "Antônio", "Giuseppe", "Anita", "Cayetana", "Maria", "Davi", "João", "Inácio", "Domingos"]
+    },
+	{
+		"name": "Tiwanaku",  
+		"leaderName": "Huyustus",
+		"adjective": ["Tiwanakan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your reckless and vile actions have made you a threat that I must now dispatch.",
+		"attacked": "So it has come to this... do your worst, heathen!",
+		"defeated": "At least now, we will join our ancestors.",
+		"introduction": "Welcome, fair traveler. We're the people of Tiwanaku, join us while we wait to join the stars.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [148, 75, 35],
+		"innerColor": [240, 170, 87],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Chakana Theocracy",
+		"uniques": ["Provides the cheapest [Faith] building in your first [4] cities for free <after discovering [Pottery]>"],
+		"cities": ["Tiwanaku","Pariti","Lukurmata","Wankane","Pokotia","Pajchiri","Ojjo","Omo","Atacama","Pampa Koani",
+			"Machaca","Pucará","Wiracochapampa","Wilcawaín","Cajamarquilla","Pachacámac","Wariwillca","Piquillacta","Ichabamba","Hongo Pampa",
+			"Huilcahuaín","Chimu Cápac","Socos","Maymi","Atarco","Azángaro","Qonchopata","Jargampata","Jincamoqo"],
+        "spyNames": ["Chachapuma", "Pumakatari", "Puquina", "Akachachi", "Willka", "Chakan", "Cheratari", "Akapuma", "Amauchapa", "Pachapuma"]
+    },
+	{
+		"name": "New Holland",  //golden age generator
+		"leaderName": "Johan Maurits",
+		"adjective": ["New Hollandese"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Finish your last prayers, soon we will sell you on our fine markets.",
+		"attacked": "You will be a well priced slave!",
+		"defeated": "Blegh! I guess now I am your 'guest'?",
+		"introduction": "Well Hello there! I am John Maurits of this small, but fine piece of land on Gods plentiful earth. Know you're welcom and tolerated here, as long you are not in any troubles?",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [18, 56, 93],
+		"innerColor": [207, 119, 47],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Historia Naturalis Brasiliae",
+		"uniques": ["[+1 Science] from every [Jungle] <during a Golden Age>"],
+		"cities": ["Mauritsstad","Frederikstad","Nieuw Amsterdam","Saint Louis","Fort Schoonenborch","São Cristóvão","Sirinhaém","Olinda","Porto Calvo","Arraial do Bom Jesus",
+			"Cabo de Santo Agostinho","Itamaracá","Natal","Paraíba","Guararapes","Várzea","Pontal de Nazaré","Fort Maurits","Fort Nazaré","Brouwershaven"],
+        "spyNames": ["Willem", "Maurits", "Vanne", "Johan", "Durthem", "Coen", "Beatrix", "Ivo", "Piet", "Jacob"]
     },
 	
 	

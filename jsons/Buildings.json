@@ -450,7 +450,25 @@
 		"uniques": ["Hidden when religion is disabled", "[All] Units adjacent to this city heal [5] HP per turn when healing",
 		"[+1 Faith] from every [Atoll]"] //doubled effect?????
 	},
-	
+	{
+		"name": "Sisqeno Bonus",  
+		"uniqueTo": "Tiwnaku",
+		"cost": 60,
+		"uniques": ["[+1 Faith, +1 Science] from every [Chatallata]",
+		"Unbuildable"],
+	},
+	{
+		"name": "Engenho Mill",
+        "replaces": "Windmill",
+		"uniqueTo": "New Holland",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]",
+		"[+1 Production] from every [Jungle]"],
+		"requiredTech": "Economics"
+	},
 	
 	
 	

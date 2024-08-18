@@ -2612,7 +2612,34 @@
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
-	
+	{
+		"name": "Sisqeno",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Tiwanaku",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Gain a free [Sisqeno Bonus] [in this city] <after which this unit is consumed>"],  //needs testing
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "West Indiaman",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "New Holland",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I","[West Indiaman] ability"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
 	
 	
 	
