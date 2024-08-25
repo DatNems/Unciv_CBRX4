@@ -859,6 +859,10 @@
         "uniques": ["[+20]% Strength <when fighting in [Coastal] tiles>",
 		"Double movement in [Coastal]"]
     },
+	{
+        "name": "[Granaderos] ability",
+        "uniques": ["[+25]% Strength <within [5] tiles of a [City center]> <in [Friendly Land] tiles>"]
+    },
 	
 	
 	//<in [Friendly Land] tiles>

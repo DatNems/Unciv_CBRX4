@@ -469,6 +469,39 @@
 		"[+1 Production] from every [Jungle]"],
 		"requiredTech": "Economics"
 	},
+	{
+		"name": "Lasallian School", 
+        "replaces": "University",
+		"uniqueTo": "Ecuador",
+		"faith": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 25},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library", 
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", 
+		"Gain [25]-[50] [Science] <upon gaining a [Civilian] unit>",  //needs testing
+		"Only available <if [Temple] is constructed>"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Batey",
+        "replaces": "Colosseum",
+		"uniqueTo": "Taino",
+		"maintenance": 1,
+		"faith": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] <in cities with [5] [Population]>",  //needs testing
+		"[+1 Culture] <in cities with [10] [Population]>",
+		"[+1 Culture] <in cities with [15] [Population]>",
+		"[+1 Culture] <in cities with [20] [Population]>",
+		"[+1 Culture] <in cities with [25] [Population]>",
+		"[+1 Culture] <in cities with [30] [Population]>",
+		"[+1 Culture] <in cities with [35] [Population]>",
+		"[+1 Culture] <in cities with [40] [Population]>"],
+		"requiredTech": "Construction"
+	},
 	
 	
 	

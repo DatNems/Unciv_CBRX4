@@ -2507,8 +2507,65 @@
 			"Cabo de Santo Agostinho","Itamaracá","Natal","Paraíba","Guararapes","Várzea","Pontal de Nazaré","Fort Maurits","Fort Nazaré","Brouwershaven"],
         "spyNames": ["Willem", "Maurits", "Vanne", "Johan", "Durthem", "Coen", "Beatrix", "Ivo", "Piet", "Jacob"]
     },
-	
-	
+	{
+		"name": "Ecuador",  
+		"leaderName": "Gabriel García Moreno",
+		"adjective": ["Ecuadorian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The true work of God begins.",
+		"attacked": "Only a heathen and a savage would dare assault a statesman of God.",
+		"defeated": "You may murder me, but you can never kill my faith.",
+		"introduction": "I am Gabriel García Moreno, statesman of Ecuador after God's own heart. Enter with righteousness, or your time here will be short.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [23, 64, 116],
+		"innerColor": [251, 197, 151],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Trabajo Subsidario",
+		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Production] [in capital]","[+10]% [Gold] [in capital]",
+		"[+15]% Production when constructing [Worker] units [non-[in all cities connected to capital]]"],  //needs testing
+		"cities": ["Quito","Cuenca","Guayaquil","Loja","Ibarra","Latacunga","Riobamba","Otavalo","Ambato","Zarumba",
+			"Montecristi","Portoviejo","Esmeraldas","Palenque","Santa Rosa de Atacames","Limones","Machala","Santa Rita de Babahoyo","Santo Domingo","Santa Elena",
+			"San Pedro de Guaranda","San Francisco de Peleusí de Azogues","San Miguel de Tulcán","Macas","Tena","Puerto Francisco de Orellana","Puyo","Nueva Loja","Zamora de los Alcaides","Puerto Baquerizo Moreno",
+			"Tripa de Pollo","El Culo"],
+        "spyNames": ["Mariano", "Antonio", "Rafael", "Francisco", "José", "Manuel", "Vicente", "Pedro", "Diego", "Carmen"]
+    },
+	{
+		"name": "Taino",   //resource generator
+		"leaderName": "Agüeybaná II",
+		"adjective": ["Taino"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": " ",
+		"attacked": "...",
+		"defeated": "We fought as valiantly as we could yet it was not enough. Be gentle with my people.",
+		"introduction": "Greetings foreigner. I am Agueybana II, cacique of the Taino. My people extend their hospitality towards you as long as you remain loyal to us.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [11, 77, 138],
+		"innerColor": [54, 191, 61],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Slash and Burn",
+		"uniques": ["[-50]% construction time for [Remove Forest] improvements","[-50]% construction time for [Remove Jungle] improvements",
+		"[+10]% Great Person generation [in all cities] <within [3] tiles of a [Plantation]>",  //test
+		"[+25]% [Culture] [in all cities] <during We Love The King Day>"],  
+		"cities": ["Boriken","Cubao","Xaymaca","Ayiti","Yuma","Siguanea","Curuquiera","Babeque","Abawana","Cajimi","Matacumbe",
+			"Kayco","Guanahani","Ayay","Beguia","Guanabo","Yaramaqui","Iguanacaire","Bayaruco","Bieque","Yaquimel",
+			"Bohio","Habana","Camaguey","Batabano","Baracoa","Bayamo","Abacoa","Otoao","Guama","Aymaco",
+			"Guania","Abeyno","Guayama","Macao"],
+        "spyNames": ["Tinima", "Imotonex", "Biautex", "Amanex", "Acanorex", "Yahima", "Majagua", "Casiguaya", "Yacagüex", "Yuisa"]
+    },
 	
 	
 	
