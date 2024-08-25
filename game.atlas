@@ -6,847 +6,875 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ImprovementIcons/Kasbah
   rotate: false
-  xy: 1224, 676
+  xy: 656, 368
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Bavaria
   rotate: false
-  xy: 276, 104
+  xy: 820, 640
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Bora Bora
   rotate: false
-  xy: 268, 892
+  xy: 268, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Burgundy
   rotate: false
-  xy: 1036, 784
+  xy: 1064, 775
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Dai Viet
   rotate: false
-  xy: 4, 356
+  xy: 540, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Dzungar Khanate
   rotate: false
-  xy: 1576, 784
+  xy: 1496, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Ecuador
+  rotate: false
+  xy: 4, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 NationIcons/English Empire
   rotate: false
-  xy: 4, 220
+  xy: 4, 76
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Eswatini
   rotate: false
-  xy: 1684, 784
+  xy: 1604, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Faroe Islands
   rotate: false
-  xy: 676, 892
+  xy: 812, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Goguryeo
   rotate: false
-  xy: 548, 296
+  xy: 1928, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Harappa
   rotate: false
-  xy: 812, 892
+  xy: 1220, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Imperial Rome
   rotate: false
-  xy: 792, 648
+  xy: 1280, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kalmyk Empire
   rotate: false
-  xy: 1008, 676
+  xy: 1820, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kanem-Bornu
   rotate: false
-  xy: 1116, 676
+  xy: 1928, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kazan Khanate
   rotate: false
-  xy: 1332, 676
+  xy: 656, 260
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Khanate of Bukhara
   rotate: false
-  xy: 1440, 676
+  xy: 600, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Khoshut Khanate
   rotate: false
-  xy: 1220, 892
+  xy: 1628, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Latvia
   rotate: false
-  xy: 1548, 676
+  xy: 600, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Maguindanao
   rotate: false
-  xy: 1900, 892
+  xy: 140, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Makhnovia
   rotate: false
-  xy: 1764, 676
+  xy: 708, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mongolia (Sorghaghtani)
   rotate: false
-  xy: 384, 104
+  xy: 928, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ndongo
   rotate: false
-  xy: 628, 188
+  xy: 1144, 559
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/New Holland
   rotate: false
-  xy: 140, 492
+  xy: 140, 76
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Noongar
   rotate: false
-  xy: 140, 220
+  xy: 276, 612
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Palawa
   rotate: false
-  xy: 140, 84
+  xy: 412, 748
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Pontus
   rotate: false
-  xy: 872, 324
+  xy: 1252, 451
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Qarmatia
   rotate: false
-  xy: 980, 568
+  xy: 1360, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Republic of Kazakhstan
   rotate: false
-  xy: 1088, 568
+  xy: 1468, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Republic of Singapore
   rotate: false
-  xy: 276, 756
+  xy: 276, 476
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Riograndese Republic
   rotate: false
-  xy: 276, 620
+  xy: 412, 612
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Royal Hungary
   rotate: false
-  xy: 980, 352
+  xy: 1468, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Saba-Da'amat
   rotate: false
-  xy: 1088, 460
+  xy: 1576, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Shang
   rotate: false
-  xy: 1304, 568
+  xy: 1792, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Siam (Rama V)
   rotate: false
-  xy: 412, 756
+  xy: 548, 748
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Sierra Leone
   rotate: false
-  xy: 1196, 352
+  xy: 1792, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sultanate of Mogadishu
   rotate: false
-  xy: 1412, 460
+  xy: 1468, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Taino
+  rotate: false
+  xy: 548, 612
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 NationIcons/The Afsharids
   rotate: false
-  xy: 1628, 568
+  xy: 1900, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Alaouites
   rotate: false
-  xy: 1520, 352
+  xy: 764, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Finns
   rotate: false
-  xy: 1628, 460
+  xy: 764, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ikko-Ikki
   rotate: false
-  xy: 1736, 568
+  xy: 872, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mamluks
   rotate: false
-  xy: 1628, 352
+  xy: 872, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Nivkh
   rotate: false
-  xy: 1736, 460
+  xy: 980, 343
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Rozvi
   rotate: false
-  xy: 1844, 568
+  xy: 1088, 343
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Selkups
   rotate: false
-  xy: 1736, 352
+  xy: 1196, 343
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Tehuelche
   rotate: false
-  xy: 4, 764
+  xy: 4, 756
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/The Ume Sami
   rotate: false
-  xy: 1844, 460
+  xy: 980, 235
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tiwanaku
   rotate: false
-  xy: 276, 348
+  xy: 276, 204
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Vijaynagara
   rotate: false
-  xy: 412, 484
+  xy: 412, 340
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Visigothic Kingdom
   rotate: false
-  xy: 980, 244
+  xy: 1412, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Wahgi
   rotate: false
-  xy: 548, 620
+  xy: 548, 476
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Zheng
   rotate: false
-  xy: 1980, 712
+  xy: 4, 4
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chatallata
   rotate: false
-  xy: 1412, 303
+  xy: 1304, 402
   size: 32, 41
   orig: 32, 41
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cold-Fire Grounds
   rotate: false
-  xy: 1412, 258
+  xy: 1844, 299
   size: 32, 37
   orig: 32, 37
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Daaq Ah
   rotate: false
-  xy: 1980, 676
+  xy: 76, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Durga
   rotate: false
-  xy: 4, 4
+  xy: 1304, 362
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Finn Fort
   rotate: false
-  xy: 44, 4
+  xy: 1844, 259
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kan
   rotate: false
-  xy: 46, 44
+  xy: 1884, 304
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kasbah
   rotate: false
-  xy: 1952, 639
+  xy: 1884, 267
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Schloss
   rotate: false
-  xy: 1452, 311
+  xy: 1924, 303
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Center
   rotate: false
-  xy: 4, 44
+  xy: 548, 220
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 UnitIcons/Aizsargi
   rotate: false
-  xy: 548, 512
+  xy: 276, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Askawr
   rotate: false
-  xy: 684, 648
+  xy: 548, 368
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Badan
   rotate: false
-  xy: 820, 784
+  xy: 684, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Beg
   rotate: false
-  xy: 412, 240
+  xy: 956, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Black Guard
   rotate: false
-  xy: 548, 404
+  xy: 384, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Black Loyalist
   rotate: false
-  xy: 928, 784
+  xy: 548, 260
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bola Thrower
   rotate: false
-  xy: 4, 628
+  xy: 4, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Bullock Cart
   rotate: false
-  xy: 4, 492
+  xy: 4, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Cacique
+  rotate: false
+  xy: 404, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Cam Quan
   rotate: false
-  xy: 404, 892
+  xy: 4, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Chalkaspides
   rotate: false
-  xy: 1144, 784
+  xy: 492, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chevauchee
   rotate: false
-  xy: 1252, 784
+  xy: 1172, 775
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Company Ship
   rotate: false
-  xy: 1360, 784
+  xy: 1280, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Darughar Conscript
   rotate: false
-  xy: 1468, 784
+  xy: 1388, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Eia
   rotate: false
-  xy: 540, 892
+  xy: 676, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Gaemamusa
   rotate: false
-  xy: 1792, 784
+  xy: 1712, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gardingo
   rotate: false
-  xy: 1900, 784
+  xy: 1820, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gidjiboryl
   rotate: false
-  xy: 4, 84
+  xy: 948, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Granaderos
+  rotate: false
+  xy: 1084, 883
+  size: 128, 129
+  orig: 128, 129
+  offset: 0, 0
+  index: -1
 UnitIcons/Grindadrap
   rotate: false
-  xy: 656, 512
+  xy: 956, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hand Gunner
   rotate: false
-  xy: 656, 404
+  xy: 1064, 667
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hartschier
   rotate: false
-  xy: 656, 296
+  xy: 1172, 667
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jazayerchiha
   rotate: false
-  xy: 764, 540
+  xy: 1388, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kaijeeta
   rotate: false
-  xy: 948, 892
+  xy: 1356, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Kainulainen Huntress
   rotate: false
-  xy: 764, 432
+  xy: 1496, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kakh Mu
   rotate: false
-  xy: 764, 324
+  xy: 1604, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kakh Tu
   rotate: false
-  xy: 900, 676
+  xy: 1712, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Karakoa
   rotate: false
-  xy: 1084, 892
+  xy: 1492, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/King's Guard
   rotate: false
-  xy: 1356, 892
+  xy: 1764, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Kumb Tapi
   rotate: false
-  xy: 1492, 892
+  xy: 1900, 884
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Lanceiro Negro
   rotate: false
-  xy: 1628, 892
+  xy: 140, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Leryna
   rotate: false
-  xy: 1764, 892
+  xy: 140, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Longbowmen
   rotate: false
-  xy: 1656, 676
+  xy: 708, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missoca
   rotate: false
-  xy: 1872, 676
+  xy: 820, 532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/NS Men
   rotate: false
-  xy: 140, 628
+  xy: 140, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Najjde
   rotate: false
-  xy: 520, 188
+  xy: 1036, 559
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ngwenyama
   rotate: false
-  xy: 492, 80
+  xy: 928, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nomin
   rotate: false
-  xy: 600, 80
+  xy: 1036, 451
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nomiyin
   rotate: false
-  xy: 140, 356
+  xy: 276, 748
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Ortogh
   rotate: false
-  xy: 872, 540
+  xy: 1144, 451
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pombo
   rotate: false
-  xy: 872, 432
+  xy: 1252, 559
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ransom Caravan
   rotate: false
-  xy: 980, 460
+  xy: 1360, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Salihi
   rotate: false
-  xy: 1196, 568
+  xy: 1576, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Savaran e Saltanati
   rotate: false
-  xy: 1088, 352
+  xy: 1684, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scythed Chariot
   rotate: false
-  xy: 1196, 460
+  xy: 1684, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Singulares
   rotate: false
-  xy: 1304, 460
+  xy: 1900, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sisqeno
   rotate: false
-  xy: 276, 484
+  xy: 276, 340
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Skewbald Rider
   rotate: false
-  xy: 1412, 568
+  xy: 1900, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sloop
   rotate: false
-  xy: 412, 620
+  xy: 412, 476
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Sohei
   rotate: false
-  xy: 1304, 352
+  xy: 1360, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Szekely Guardsman
   rotate: false
-  xy: 1520, 568
+  xy: 1576, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/T-72
   rotate: false
-  xy: 1412, 352
+  xy: 1684, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tachanka
   rotate: false
-  xy: 1520, 460
+  xy: 1792, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tie Ren
   rotate: false
-  xy: 548, 756
+  xy: 684, 748
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Ulan Zalata
   rotate: false
-  xy: 1844, 352
+  xy: 1088, 235
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uqaylid Outrider
   rotate: false
-  xy: 764, 216
+  xy: 1196, 235
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uwassiye
   rotate: false
-  xy: 872, 216
+  xy: 1304, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Junk
   rotate: false
-  xy: 684, 756
+  xy: 684, 612
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/West Indiaman
   rotate: false
-  xy: 276, 212
+  xy: 820, 748
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Xazg
   rotate: false
-  xy: 1088, 244
+  xy: 1520, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Yaso
   rotate: false
-  xy: 412, 348
+  xy: 412, 204
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Yue Axeman
   rotate: false
-  xy: 1196, 244
+  xy: 1628, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zanbur Cavalry
   rotate: false
-  xy: 1304, 244
+  xy: 1736, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
