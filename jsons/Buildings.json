@@ -492,14 +492,14 @@
 		"faith": 2,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture] <in cities with [5] [Population]>",  //needs testing
-		"[+1 Culture] <in cities with [10] [Population]>",
-		"[+1 Culture] <in cities with [15] [Population]>",
-		"[+1 Culture] <in cities with [20] [Population]>",
-		"[+1 Culture] <in cities with [25] [Population]>",
-		"[+1 Culture] <in cities with [30] [Population]>",
-		"[+1 Culture] <in cities with [35] [Population]>",
-		"[+1 Culture] <in cities with [40] [Population]>"],
+		"uniques": ["[+1 Culture] <in cities with at least [5] [Population]>",  //needs testing
+		"[+1 Culture] <in cities with at least [10] [Population]>",
+		"[+1 Culture] <in cities with at least [15] [Population]>",
+		"[+1 Culture] <in cities with at least [20] [Population]>",
+		"[+1 Culture] <in cities with at least [25] [Population]>",
+		"[+1 Culture] <in cities with at least [30] [Population]>",
+		"[+1 Culture] <in cities with at least [35] [Population]>",
+		"[+1 Culture] <in cities with at least [40] [Population]>"],
 		"requiredTech": "Construction"
 	},
 	
