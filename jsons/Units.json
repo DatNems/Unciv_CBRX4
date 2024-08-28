@@ -2666,6 +2666,22 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "Volunteer Corps",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Mexico",
+		"range": 1,
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 28,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"promotions": ["[Volunteer Corps] ability"],
+		"attackSound": "machinegun"
+	},
 	
 	
 	

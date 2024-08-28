@@ -452,7 +452,7 @@
 	},
 	{
 		"name": "Sisqeno Bonus",  
-		"uniqueTo": "Tiwnaku",
+		"uniqueTo": "Tiwanaku",
 		"cost": 60,
 		"uniques": ["[+1 Faith, +1 Science] from every [Chatallata]",
 		"Unbuildable"],
@@ -501,6 +501,19 @@
 		"[+1 Culture] <in cities with at least [35] [Population]>",
 		"[+1 Culture] <in cities with at least [40] [Population]>"],
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Finca",
+        "replaces": "Bank",
+		"uniqueTo": "Mexico",
+		"gold": 2,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"uniques": ["[+1 Culture] from every [Merchant] <in this city>"]
+		"requiredTech": "Banking"
 	},
 	
 	

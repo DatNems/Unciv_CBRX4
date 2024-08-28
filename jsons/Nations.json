@@ -2541,7 +2541,7 @@
 		"leaderName": "Agüeybaná II",
 		"adjective": ["Taino"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -2565,6 +2565,36 @@
 			"Bohio","Habana","Camaguey","Batabano","Baracoa","Bayamo","Abacoa","Otoao","Guama","Aymaco",
 			"Guania","Abeyno","Guayama","Macao"],
         "spyNames": ["Tinima", "Imotonex", "Biautex", "Amanex", "Acanorex", "Yahima", "Majagua", "Casiguaya", "Yacagüex", "Yuisa"]
+    },
+	{
+		"name": "Mexico",  
+		"leaderName": "Maximilian I",
+		"adjective": ["Mexican"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "May the blood which is about to be shed be for the good of Mexico.",
+		"attacked": "You will find that, whatever I may lack in skill on the battlefield, the fierce loyalty of my men will more than make up for it.",
+		"defeated": "I ask only that you treat my men well, and that you leave my face for my mother.",
+		"introduction": "Hail. I am Maximilian I, emperor of Mexico and defender of the liberties of her people. What company do you bring?",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [60, 98, 0],
+		"innerColor": [218, 197, 28],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Stand at Querétaro",
+		"uniques": ["Free [Volunteer Corps] appears <after adopting [Order]> <upon declaring war with a major Civilization>",  //placeholder 
+		"Free [Volunteer Corps] appears <after adopting [Autocracy]> <upon declaring war with a major Civilization>",  //original spawns units when adopting pol
+		"Free [Volunteer Corps] appears <after adopting [Freedom]> <upon declaring war with a major Civilization>"],  
+		"cities": ["Mexico City","Veracruz","Guadalajara","Monterrey","San Antonio","Santa Fé","San Luís Potosí","Mérida","La Puebla","Oaxaca",
+			"Chihuahua","Nacogdoches","Valladolid","Guanajuato","Zacatecas","Tabasco","León","Arispe","Loreto","Querétaro",
+			"Laredo","Saltillo","Tampico","Chilpancingo","Campéche","Monterey","Durango","Albuquerque","San Diego","El Paso Del Norte",
+			"Los Angeles","Salamanca","Culiacán","Tecolotlán","Aguas Calientes","Soto de la Marina","Valles","Villa Hermosa","Santa Barbara","Parras"],
+        "spyNames": ["Edith", "Moambique", "Armandola", "Isobella", "Franco", "Escobar", "Pedro", "Eusebio", "Maria", "Raul"]
     },
 	
 	
