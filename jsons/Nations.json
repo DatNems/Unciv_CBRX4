@@ -2596,9 +2596,232 @@
 			"Los Angeles","Salamanca","Culiacán","Tecolotlán","Aguas Calientes","Soto de la Marina","Valles","Villa Hermosa","Santa Barbara","Parras"],
         "spyNames": ["Edith", "Moambique", "Armandola", "Isobella", "Franco", "Escobar", "Pedro", "Eusebio", "Maria", "Raul"]
     },
-	
-	
-	
+	{
+		"name": "Florida",  
+		"leaderName": "Gregor MacGregor",
+		"adjective": ["Floridian"],
+		"startBias": ["Marsh"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Our conquest of the Floridas continues. I will capture your land in the name of Venezuela!",
+		"attacked": "You stake a claim on this Republic as well? We will stand our ground!",
+		"defeated": "It is no matter, I have already sold this republic and I am ready for my next adventure!",
+		"introduction": "My name is Gregor MacGregor, and you look like the perfect soldier who would join me in my conquest of the Floridas! Do you wish to fight by side and reap the rewards?",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [194, 213, 209],
+		"innerColor": [33, 88, 69],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Either Hell or Amelia",
+		"uniques": ["[300] units cost no maintenance <when at war>",
+		"[+2] Happiness from each type of luxury resource <when not at war>",
+		"Gain [50]-[300] [Gold] <upon expending a [Scrip Vendor] unit>"],
+		"cities": ["Fernandina","Fort San Carlos","St. Augustine","Pensacola","Fernandina Beach","Jacksonville","St. Marks","Mobile","Baton Rouge","St. Francisville","Biloxi",
+			"Amelia Island","Tiger","San Marcos","Little Tiger","Martins Island","St. Marys","Fort Barrancas","St. Johns","Fort George","Fort Caroline",
+			"Fort San Francisco de Pupo","Fort Bute","Fort Charlotte"],
+        "spyNames": ["Richard", "Louis-Michel", "Jared", "Ruggles", "George", "Juan", "Thomas", "Josefa", "Frederic", "Michael"]
+    },
+	{
+		"name": "The Pueblo",  
+		"leaderName": "Po'pay",
+		"adjective": ["Pueblean"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The day of our rise is finally here, and our ancestors shall lead us to victory! Your God is dead -- he was made of rotten wood!",
+		"attacked": "Our lands shall flourish once you are gone... our ancestors will lead us to victory!",
+		"defeated": "The end of days is here... ",
+		"introduction": ">What brings you here? If you wish to trade, that is one thing... but I know you shall find our lands a bit too dry for outsiders to settle.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [169, 130, 63],
+		"innerColor": [61, 4, 21],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Gods of Rotten Wood",
+		"uniques": ["All newly-trained [Military] units [in all cities] receive the [[The Pueblo] ability] promotion",
+		"[+1 Science] from every [Religious] <when not at war>"], //testing - no work?
+		"cities": ["Taos","Háák'u","Ohkay Owingeh","Oraibi","A-shiwi","P'ohwhóge Owingeh","Walatowa","Kewa","Shiewhibak","P'iwweltha",
+			"Kha'po Owingeh","Tetsuge Owingeh","Nambe Owingeh","Kawaika","Zia","Cochiti","Abiquiú","Tamaya","Tuf Shur Tia","Quarai",
+			"Hano", "Galisteo","Senecú","P'osuwaege Owingeh","Sitsomovi","Waalpi","Cicuye","Katishtya","Paguate","Paa-ko",
+			"Shuwiftu","Santa Fe"],
+        "spyNames": ["Búa", "Conixu", "Xenome", "Tagu", "Yope", "Cajete", "Catiti", "Taputu", "Zutacapan", "Kino"]
+    },
+	{
+		"name": "Osage Tribe",  //golden age/bonus generator
+		"leaderName": "Pawshuka",
+		"adjective": ["Osage"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "...",
+		"attacked": "...",
+		"defeated": "Even in defeat the Osage spirit will live on.",
+		"introduction": "Welcome to the middle waters. You may call me Chief Pawhuska.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [0, 83, 91],
+		"innerColor": [227, 150, 60],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Strength of the Spider",
+		"uniques": ["Empire enters golden age <upon conquering a city>"],
+		"cities": ["Ni-o-sho-de","Mo-he-ag-gra","Pa-hiu-cka","Engru-scah-op-pa","Chetopah","Mixa-ckau-tse","Pah-Che-Ka","Nion-Chou","Pa Sole","Pasuga",
+			"Ho-tsa-Tun-ka","No-Tse-Wa-Spe","Wah-Zha-Zhi","Manka-Chonka","Gra-mo'n","Xtha-ci ga-xa","Ba-xu Da-pa O-ko-dae","Ba-xu Zhi-ga","Ni-hni-bo-shta","Sho-do",
+			"Da-pa U-pshe","Wa-gthi-shka","To-wo Thi-xthi-ge","Do-ckiu-e-ga-xa","Ga-da-dse Ga-xa","Ni Ton-ga","We-tsa U-zhi","Zho-xe-ga U-gthi","E-hiu-gthe","Aſ-thi-gi-xe",
+			"Wi-tza"],
+        "spyNames": ["Ko pa ka she", "Hun ka ah gre", "Mihoni", "Me hun ka me", "Kahikie atch", "Na he me ka", "Me tsa ho pa", "Me tsa he-Me na", "Mo sa ne", "Pa pu son tsa"]
+    },
+	{
+		"name": "Shawnee",  //originally WILD CS/religion stuff
+		"leaderName": "Tecumseh",
+		"adjective": ["Shawnee"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I will endeavor to level you, to destroy your supporters, by whom all mischiefs are done.",
+		"attacked": "From my tribe I take nothing, I am the maker of my own fortune. And in my fortune, I shall not kowtow to you, not now, not ever..",
+		"defeated": "Show respect to all people, but grovel to none. I will not grovel to you. Let me be to my fate",
+		"introduction": ">Welcome to the place where the Shawnee live. We do not own the land. Land is like air and water. No one owns it here.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [105, 31, 18],
+		"innerColor": [174, 185, 142],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Sleep no Longer",
+		"uniques": ["Allied City-States provide [Gold] equal to [+25]% of what they produce for themselves",],  //placeholder kinda since no CS uniques
+		"cities": ["Prophetstown","Chillicothe","Mequachake","Catawissa","Peixtan","Scoutash","Wapakoneta","Tippecanoe","Maumee","Piqua",
+			"Kickenapawling","Kagoughsage","Conedogwinit","Nawake","Pequea","Girtystown","Willstown","Long Tail","Standing Stone","Hog Creek"],
+        "spyNames": ["Methotaske", "Nonhelema", "Catahecassa", "Lalawethika", "Hokolesqua", "Cheeseekau", "Tenskwatawa", "Weyapiersenicah", "Puckshinwa", "Nererahhe"]
+    },
+	{
+		"name": "Seneca",  
+		"leaderName": "Cornplanter",
+		"adjective": ["Senecan"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You will see the might of the Seneca on the battlefield. It will be the sight that haunts your eyes as your head hangs on a spear.",
+		"attacked": "Yet another senseless war. Your lust for blood will be sated by your own.",
+		"defeated": "Our hearts are forever grieved by the fears of our women and children, for you have destroyed them.",
+		"introduction": "Hello, Strangers! It is the wish of me and my people to live peaceably and quietly with you.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [29, 6, 34],
+		"innerColor": [214, 161, 109],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Keepers of the Western Door",
+		"uniques": ["[+5]% Strength <for [Military] units> <upon declaring friendship>"], //originally counts for enemies
+		"cities": ["Ganondagan","Nundawao","Genundowa","Kanawagas","Chenussio","Kayahsuto'ke","Ohio'","Kaoto'","Thanonokeo","Onota'ke",
+			"Ka'taeaekeskeo","Tosyowe","Thanowote","Tketsoa'","Tyoetse'syo'","Skanehtati","Wasto'ke","Kasteeko","Kanye'ke","Kanowoko",
+			"Tsyokowoti", "Sweke'","Kayaha'ke","Tsyoneshiyo","Tyos'skwaeaetase","Kanoktiyo'ke","Heyooke","Twasko'","Ha'teyoyaya'kto","Tyonohsateke'"],
+        "spyNames": ["Handsome Lake", "Ah-wen-Eyu", "Governor Blacksnake", "Red Jacket", "Half-King", "George", "Chielf Halftown", "Destroy Town", "Deerfoot", "Chief John Big Tree"]
+    },
+	{
+		"name": "The Crow",  
+		"leaderName": "Joe Medicine Crow",
+		"adjective": ["Crow"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "...",
+		"attacked": "...",
+		"defeated": "No matter what you think you can do to us, we will persist. We've survived worse than the likes of you.",
+		"introduction": "Greetings, young one. I am Joseph Medicine Crow High Bird, Pipe Carrier and keeper of memories for my people. Come back out of the cold with me, and I'll tell you many of our stories.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [96, 62, 79],
+		"innerColor": [175, 238, 245],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Keeper of Memories",
+		"uniques": ["All newly-trained [Military] units [in all cities] receive the [[Crow] ability] promotion"], //unique promo-tree
+		"cities": ["Baaxawuaashé","Iáxuhpish Aashkaate","Báhkisee","Chichúche","Baaxawuaashalíiko","Alaxchíiahush Isbahée","Bahaá Ishíle","Ihkapíliish Isbahée","Bínneete","Kapíliashtiishte",
+			"Tasshé Aashe","Peelatchákeesh Annahéeo","Shichóowappe","Shiitilítshia","Buusseealaho","Shithísshe","Huupalikoochish","Déaxkaashalawaache","Déeshaashe","Cheétbahee",
+			"Daxpitcheemmilihpúua", "Báachiiaashe","Uuxhilíatte","Báashalapatche","Bahaaítche","Uuke Aashe","Awaxaawippiia","Balapáalapilaké","Oowappe","Ohkapisee",
+			"Aweshipite","Where-There-Are-Many-Human-Skulls"],
+        "spyNames": ["Finds Them and Kills Them", "Red Plume At The Temple", "Bear Whose Heart Is Never Good", "Twines His Tail", "White Man Runs Him", "Goes Ahead", "Curly", "Half Yellow Face", "Old Bull", "Among The Willows"]
+    },
+	{
+		"name": "The Yellowknives",   //resource generator 
+		"leaderName": "Akaitcho",
+		"adjective": ["Yellowknife"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "All right, enough is enough. Time to cut you down to size.",
+		"attacked": "If it's a fight you want, then it's a fight you'll have. Be prepared to learn why the Dogrib and Chipewyan fear us so.",
+		"defeated": "Impossible! We were unbeatable! How could this have happened?",
+		"introduction": ">There aren't many who have it in them to survive out here! You must be a brave one. The name's Akaitcho, pleased to meet you.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [45, 13, 14],
+		"innerColor": [193, 139, 31],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Long Distances over Snow",
+		"uniques": ["All newly-trained [Military] units [in all cities] receive the [[Yellowknife] ability] promotion",
+		"[+1 Food] from every [Strategic resource]","[+1 Food] from every [Copper]"], 
+		"cities": ["Dettah","Ndilo","Ti Cho","Tsi-Wah Cho","Kwe Ka Tszoa","Weledeh-Cheh","Necha Go Do","Ek'ati Ndi","Ta-Cheh","Enodah",
+			"Tadeh Cho","Itawo Ti","Teghi Ti Deh","Tehti","Burwash Point","Jolliffe Island","Weleh-Cheh","Liwe-Cheh","Mackay Lake","Weleh Ti",
+			"Drybones Bay", "Moose Bay","Wool Bay","Gordon Lake","Beniah Lake","Whitebeach Point","Ptarmigan Point","Latham Island","Bloody Falls"],
+        "spyNames": ["Long Legs", "Kah-Teh-Whee", "Sah-Tli", "Itawo", "Yamozha", "Willie Crapeau", "Joseph Drygeese", "Potfighter", "White Capot", "Keskarrah"]
+    },
+	{
+		"name": "Thule",  
+		"leaderName": "Javraganak",
+		"adjective": ["Thulan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I'll enjoy reducing your villages to ashes and turning your bodies to pincushions.",
+		"attacked": "Your men will be shot on sight if they come close enough.",
+		"defeated": "No! No! I didn't want any war! Don't kill me! No!",
+		"introduction": "So you are the outlander they spoke of. I am Javraganak, of the Labradormiut. Know this: I do not let my guard down, and I am not known for my patience.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [52, 166, 177],
+		"innerColor": [19, 25, 47],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Hunting of the Bowhead",
+		"uniques": ["[+1 Culture] from every [Fishing Boats] <in cities with at least [10] [Population]>",
+		"[+1 Culture] from every [Fishing Boats] <in cities with at least [20] [Population]>",
+		"[+1 Culture] from every [Fishing Boats] <in cities with at least [30] [Population]>",
+		"[+1 Culture] from every [Ice] <in cities with at least [10] [Population]>",
+		"[+1 Culture] from every [Ice] <in cities with at least [20] [Population]>",
+		"[+1 Culture] from every [Ice] <in cities with at least [30] [Population]>"], 
+		"cities": ["Okak","Tatlurutit","Qikiqtaaluk","Kuganajuup","Qikiqtanga","Pituffik","Kinngait","Kangiqliniq","Torngat","Qaqortoq",
+			"Iqaluktuuttiaq","Qijurittug","Ivujivik","Iqaluit","Iglulik","Sisimiut","Utqiaġvik","Kuugjuaq","Paulatuk"],
+        "spyNames": ["Ikumak", "Kallik", "Limakk", "Katjiktuk", "Nattugalik", "Sunnguvuk", "Tikaani", "Ahnah", "Akna", "Yip"]
+    },
 	
 	
 	

@@ -391,6 +391,16 @@
 		"[+1 Science, +1 Faith] <after discovering [Astronomy]>"
 		"Cannot be built on [Hill] tiles"]
 	},
+	{
+		"name": "Three Sisters Outpost",
+		"uniqueTo": "Seneca",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+		"food": 1,
+		"techRequired": "Construction",
+		"uniques": ["Gives a defensive bonus of [30]%", "Must be next to [River]",
+		"[+1 Food] <after discovering [Civil Service]>"]
+	},
 	
 	
 	

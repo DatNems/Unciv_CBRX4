@@ -2682,6 +2682,157 @@
 		"promotions": ["[Volunteer Corps] ability"],
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "Green Cross Militia",
+		"replaces": "Musketman",
+		"uniqueTo": "Florida",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["[Green Cross Militia] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Scrip Vendor",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Florida",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [-15] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Ladakwe",  //cheaper faith originally
+		"replaces": "Composite Bowman",
+		"uniqueTo": "The Pueblo",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 70,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["[Ladakwe] ability"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Odon Warband",  
+		"replaces": "Pikeman",
+		"uniqueTo": "Osage Tribe",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"promotions": ["[Odon Warband] ability"],  //originally 2 range
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wathito Worker",
+		"replaces": "Worker",
+		"uniqueTo": "Osage Tribe",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		"[+50]% construction time for [All Road] improvements <during a Golden Age>",
+		"Uncapturable"],
+		"cost": 70
+	},
+	{
+		"name": "Shemagana",  //will prob need some balancing
+		"unitType": "Sword",
+		"uniqueTo": "Shawnee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Theology",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought",
+		"[+50]% Strength <during the [Renaissance era]>",
+		"[+100]% Strength <during the [Industrial era]>",
+		"[+150]% Strength <during the [Modern era]>",
+		"[+200]% Strength <during the [Atomic era]>",
+		"[+250]% Strength <during the [Information era]>"],
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Swift Strike Warband", //to do: weakening effect
+		"replaces": "Musketman",
+		"uniqueTo": "Seneca",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"uniques": ["Can move after attacking"],
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cheetdaake",  //may need balancing
+		"replaces": "Paratrooper",
+		"uniqueTo": "The Crow",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 120,
+		"requiredTech": "Military Science",
+		"uniques": ["May Paradrop up to [3] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Copper Axeman", //spawns resources
+		"replaces": "Scout",
+		"uniqueTo": "The Yellowknives",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 7,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Swordsman] through ruins-like effects", "Never appears as a Barbarian unit",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Kwik'ìì Doò",
+		"replaces": "Musketman",
+		"uniqueTo": "The Yellowknives",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Unit will heal every turn, even if it performs an action <in [Strategic resource] tiles>"], //test maybe
+		"attackSound": "shot"
+	},
+	{
+		"name": "Toggling Harpooner",  //add: damage adjacent units
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Thule",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"uniques": ["Can enter ice tiles", "Can move after attacking"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
 	
 	
 	

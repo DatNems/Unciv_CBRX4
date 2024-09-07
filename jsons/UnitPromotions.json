@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
@@ -852,7 +852,7 @@
     },
 	{
         "name": "[Wahgi] ability",
-        "uniques": ["Heal this unit by [10] HP <upon being promoted>"]
+        "uniques": ["[This Unit] heals [10] HP <upon being promoted>"]
     },
 	{
         "name": "[West Indiaman] ability",
@@ -867,14 +867,55 @@
         "name": "[Volunteer Corps] ability",
         "uniques": ["Can move immediately once bought", "Ignores Zone of Control"]
     },
+	{
+        "name": "[Green Cross Militia] ability",  //needs testing
+        "uniques": ["[+50]% Strength <for [7] turns>", "Earn [50]% of killed [Military] unit's [Cost] as [Gold]"]
+    },
+	{
+        "name": "[The Pueblo] ability",
+        "uniques": ["[+15]% Strength <vs cities>"]
+    },
+	{
+		"name": "[Ladakwe] ability",
+		"uniques": ["Can move immediately once bought","[+20]% Strength <vs [Wounded] units>"]
+	},
+	{
+        "name": "[Odon Warband] ability",
+        "uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+    },
+	{
+        "name": "[Yellowknife] ability",
+        "uniques": ["[+1] Sight <upon ending a turn in a [Tundra] tile>"]
+    },
 	
 	
-	//<in [Friendly Land] tiles>
 	
 	
 	
-	//
 	
-	
-	
+	//Crow promotion tree - needs extended testnig
+	{
+        "name": "[Crow] ability",
+        "uniques": ["[This Unit] gains the [Take an Enemy's Weapon] promotion <upon defeating a [Ranged] unit>",
+		"[This Unit] gains the [Counting Coup] promotion <upon losing at least [33] HP in a single attack>",
+		"[This Unit] gains the [Lead a Victorious War Party] promotion <upon damaging a [Wounded] unit>",  //originally city dmg trigger//
+		"[This Unit] gains the [Steal an Enemy's Horse] promotion <upon defeating a [Mounted] unit>"]
+    },
+	{
+        "name": "Take an Enemy's Weapon", //works
+        "uniques": ["Heals [10] damage if it kills a unit"]
+    },
+	{
+        "name": "Counting Coup",   //works
+        "uniques": ["Ignores Zone of Control"]
+    },
+	{
+        "name": "Lead a Victorious War Party", //works
+        "uniques": ["[+10]% Strength <vs [non-[Wounded]] units>",
+		"[5] HP when healing"]
+    },
+	{
+        "name": "Steal an Enemy's Horse",  //works
+        "uniques": ["[+1] Movement"]
+    },
 ]
