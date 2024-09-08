@@ -508,4 +508,12 @@
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	}
+	//CBRX4 stuff
+	{
+		"name": "Rice",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally"]
+	},
+	
 ]

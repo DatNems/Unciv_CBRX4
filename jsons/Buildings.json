@@ -557,9 +557,133 @@
 		"requiredTech": "Optics"
 	},
 	
-	
+	//CBRX4 Wonders
 
-	
+	{
+		"name": "Göbekli Tepe",
+		"faith": 3,
+		"isWonder": true,
+		"cost": 150,
+        "uniques": ["[+2 Faith] from every [Stone]","[+2 Faith] from every [Marble]"],
+		"quote": "..."
+	},
+	{
+		"name": "Cheomseongdae",
+		"science": 3,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"cost": 185,
+        "uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Calendar"
+		"quote": "..."
+	},
+	{
+		"name": "Banaue Rice Terraces",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 185,
+        "uniques": ["Must be on [Hill]","Provides [2] [Rice]"],  //needs testing
+		"requiredTech": "The Wheel"
+		"quote": "..."
+	},
+	{
+		"name": "Gate of the Sun",
+		"culture": 3,
+		"isWonder": true,
+		"specialistSlots": {"Merchant": 1},
+		"cost": 250,
+        "uniques": ["[+1 Gold, +1 Faith] from every [Walls]"], //may need testing aswell
+		"requiredTech": "Mathematics"
+		"quote": "..."
+	},
+	{
+		"name": "Templo Mayor",
+		"culture": 2,
+		"faith": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"specialistSlots": {"Engineer": 1},
+		"cost": 250,
+        "uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
+		"requiredTech": "Mathematics"
+		"quote": "..."
+	},
+	{
+		"name": "Nan Madol",
+		"culture": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 300,
+        "uniques": ["Must be on [Coastal]","[+1 Food, +1 Gold, +1 Production] from every [Coast]"],
+		"requiredTech": "Civil Service"
+		"quote": "..."
+	},
+	{
+		"name": "Shwedagon Paya",
+		"science": 3,
+		"isWonder": true,
+		"percentStatBonus": {"science": 20},
+		"greatPersonPoints": {"Great Artist": 1},
+		"cost": 300,
+        "uniques": ["[+3 Faith] from every [Gold]","[+1 Gold] from every [Engineer]","[+1 Gold] from every [Artist]"],
+		"requiredTech": "Metal Casting"
+		"quote": "..."
+	},
+	{
+		"name": "Stone Town",  
+		"culture": 1,
+		"gold": 5,  //originally trade route wonder
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"specialistSlots": {"Merchant": 1},
+		"cost": 400,
+        "uniques": ["Must be on [Coastal]"],
+		"requiredTech": "Compass"
+		"quote": "..."
+	},
+	{
+		"name": "Harmandir Sahib",  
+		"faith": 4,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
+		"cost": 625,
+        "uniques": ["[+1 Culture] from every [Merchant]"],
+		"requiredTech": "Metallurgy"
+		"quote": "..."
+	},
+	{
+		"name": "Sagrada Familia",  
+		"culture": 1, 
+		"gold": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 875,
+        "uniques": ["[+1 Happiness] from every [Religious]",   //needs testing
+		"Gain a free [Cathedral] [in this city]"], 
+		"requiredTech": "Biology"
+		"quote": "..."
+	},
+	{
+		"name": "Pena National Palace",  
+		"culture": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 1060,
+        "uniques": ["[+20]% City Strength from defensive buildings"],
+		"requiredTech": "Steam Power"
+		"quote": "..."
+	},
+	{
+		"name": "The Sky Tower",  
+		"isWonder": true,
+		"cost": 1250,
+        "uniques": ["[+1 Gold] per [4] population [in this city]",
+		"[-15]% Unhappiness from [Population] [in all non-occupied cities]"],
+		"requiredTech": "Ecology"
+		"quote": "..."
+	},
 	
 	
 	
