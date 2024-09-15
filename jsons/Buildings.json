@@ -565,6 +565,7 @@
 		"isWonder": true,
 		"cost": 150,
         "uniques": ["[+2 Faith] from every [Stone]","[+2 Faith] from every [Marble]"],
+		"requiredTech": "Agriculture"
 		"quote": "..."
 	},
 	{
@@ -583,7 +584,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"cost": 185,
-        "uniques": ["Must be on [Hill]","Provides [2] [Rice]"],  //needs testing
+        "uniques": ["Must be on [Hill]","Provides [2] [Rice]"], 
 		"requiredTech": "The Wheel"
 		"quote": "..."
 	},
@@ -593,7 +594,7 @@
 		"isWonder": true,
 		"specialistSlots": {"Merchant": 1},
 		"cost": 250,
-        "uniques": ["[+1 Gold, +1 Faith] from every [Walls]"], //may need testing aswell
+        "uniques": ["[+1 Gold, +1 Faith] from every [Walls]"], 
 		"requiredTech": "Mathematics"
 		"quote": "..."
 	},
@@ -684,58 +685,6 @@
 		"requiredTech": "Ecology"
 		"quote": "..."
 	},
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	// Column 1
 	{
 		"name": "Granary",
@@ -1819,12 +1768,13 @@
 	},
 	{
 		"name": "Spaceship Factory",
+		"maintenance": 3,
 		"production": 3,
 		"requiredResource": "Aluminum",
 		"cost": 360,
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
-		"requiredTech": "Robotics"
+		"requiredTech": "Energy Theory"
 	},
 	// Column 16
 	{
@@ -1883,4 +1833,686 @@
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	}
+	
+	//Future Tech Buildings
+	
+	
+	{
+		"name": "Geothermal Plant",
+		"cost": 500,
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredTech": "Environmentalism",
+		"uniques": ["Must be next to [Mountain]"]  //to do: only work without nuclear
+	}
+	{
+		"name": "Tidal Plant",
+		"cost": 500,
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredTech": "Environmentalism",
+		"uniques": ["Must be next to [Coast]"]  //to do: only work without nuclear
+	}
+	{
+		"name": "Genemod Lab",
+		"cost": 500,
+		"food": 4,
+		"requiredTech": "Genetic Manipulation",
+		"uniques": ["[+2 Food] from every [Wheat] <in this city>","[+2 Food] from every [Bananas] <in this city>",
+		"[+2 Food] from every [Deer] <in this city>","[+2 Food] from every [Fish] <in this city>"] //to do: no vertical farm, mycoprotein vat, orbital habitat
+	}
+	{
+		"name": "Jurassic Park",
+		"cost": 1200,
+		"happiness": 6,
+		"gold": 6,
+		"science": 6,
+		"isWonder": true,
+		"requiredTech": "Genetic Manipulation",
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": ["[+2 Science, +2 Gold, +2 Happiness] from every [Zoo]"]  //needs testing
+	},
+	{
+		"name": "Shanghai World Financial Center",
+		"cost": 1200,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Globalization",
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["[+2 Gold] from every [Merchant]"]  //add: completion bonus
+	},
+	{
+		"name": "Server Hub",
+		"cost": 500,
+		"culture": 2,
+		"gold": 2,
+		"science": 2,
+		"requiredTech": "The Internet",
+	},
+	{
+		"name": "E-Commerce Server",  //has trade route bonus
+		"cost": 500,
+		"gold": 4,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Server Hub",
+		"requiredTech": "The Internet",
+		"specialistSlots": {"Merchant": 2},
+	},
+	{
+		"name": "Particle Accelerator", 
+		"cost": 500,
+		"maintenance": 6,
+		"science": 8,
+		"isNationalWonder": true,
+		"requiredTech": "Particle Physics",
+		"specialistSlots": {"Scientist": 3},
+		"uniques": ["Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>",
+		"Free [Great Scientist] appears"], //test
+	},
+	{
+		"name": "Enrichment Center",
+		"cost": 1200,
+		"culture": 2,
+		"isWonder": true,
+		"percentStatBonus": {"science": 100},
+		"requiredTech": "Particle Physics",
+		"uniques": ["[+1 Science] per [1] population [in this city]"]  
+	},
+	{
+		"name": "Launch Facility",
+		"cost": 900,
+		"maintenance": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 30},
+		"percentStatBonus": {"gold": 20},
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Scientist": 2},
+		"requiredTech": "Stealth",
+		"uniques": ["Consumes [2] [Aluminum]"]  
+	},
+	{
+		"name": "Aquaculture Lab",  //to do: only work without undersea mining
+		"cost": 650,
+		"maintenance": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Cloning",
+		"requiredBuilding": "Lighthouse",
+		"uniques": ["[+1 Food, +1 Gold] from every [Water resource] <in this city>"]  
+	},
+	{
+		"name": "Cloning Lab",  //to do: no vertical farm, mycoprotein vat, orbital habitat
+		"cost": 600,
+		"maintenance": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Cloning",
+		"requiredBuilding": "Genemod Lab",
+		"uniques": ["[+2 Food] from every [Sheep] <in this city>","[+2 Food] from every [Cattle] <in this city>",
+		"[+2 Production] from every [Horses] <in this city>","[+2 Production] from every [Bison] <in this city>",
+		"[15]% Food is carried over after population increases [in this city]"]  
+	},
+	{
+		"name": "VR Training Center",
+		"cost": 500,
+		"maintenance": 2,
+		"requiredBuilding": "Military Academy",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Memetics"
+	},
+	{
+		"name": "Entertainment Server",
+		"cost": 500,
+		"maintenance": 4,
+		"culture": 4,
+		"requiredBuilding": "Server Hub",
+		"requiredTech": "Memetics"
+	},
+	{
+		"name": "Tokyo Skytree",
+		"cost": 1200,
+		"culture": 2,
+		"gold": 3,
+		"happiness": 4,
+		"isWonder": true,
+		"requiredTech": "Memetics",
+		"uniques": ["[+1 Happiness, +1 Culture] from every [Broadcast Tower]"]  
+	},
+	{
+		"name": "Research Server",
+		"cost": 500,
+		"maintenance": 4,
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Server Hub",
+		"requiredTech": "Distributed Computing"
+	},
+	{
+		"name": "Autoplant",   //to do: only work without biofactor, genejack,biogenesis
+		"cost": 700,
+		"maintenance": 6,
+		"production": 10,
+		"specialistSlots": {"Engineer": 1},
+		"isNationalWonder": true,
+		"requiredBuilding": "E-Commerce Server",
+		"requiredTech": "The Internet",
+	},
+	{
+		"name": "Nanomaterial Plant",
+		"cost": 500,
+		"maintenance": 4,
+		"requiredTech": "Nanomaterials"
+		"uniques": ["[+2 Production] from every [Coal] <in this city>","[+2 Production] from every [Oil] <in this city>",
+		"Provides [2] [Nanomaterial]"]  
+	},
+	{
+		"name": "Information Hub", //to do: only work without network back, telepresence, ai network
+		"cost": 500,
+		"maintenance": 3,
+		"happiness": 2,
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Server Hub",
+		"requiredTech": "High-Energy Physics"
+		"uniques": ["[+1 Happiness] from every [Colosseum, Zoo, Stadium] <in this city>"]  //works? - also has great work stuff
+	},
+	{
+		"name": "Helios Microwave Power Satellite",  //citadel-like stuff
+		"cost": 1200,
+		"percentStatBonus": {"production": 15},
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"requiredTech": "High-Energy Physics",
+		"uniques": ["[+5 Production] from every [Solar Plant]"]  
+	},
+	{
+		"name": "Geofront",
+		"cost": 700,
+		"cityStrength": 18,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Artificial Environments",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Vertical Farm",   //to do: no genemod, cloning, transgenic nurse
+		"cost": 500,
+		"maintenance": 4,
+		"happiness": 2,
+		"food": 6,
+		"requiredBuilding": "Aqueduct",
+		"requiredTech": "Artificial Environments"
+		"uniques": ["[+1 Food] from every [Hydroponic Dome] <in this city>"]
+	},
+	{
+		"name": "Biofactory",
+		"cost": 900,
+		"maintenance": 4,
+		"requiredBuilding": "Factory",
+		"requiredTech": "Ecotheory"
+		"uniques": ["[+1 Production] from every [Grass, Plains] <in this city>"]  
+	},
+	{
+		"name": "Ecosanctuary",
+		"cost": 900,
+		"maintenance": 4,
+		"requiredTech": "Ecotheory"
+		"uniques": ["[+1 Culture, +1 Happiness] from every [Nature Preserve] <in this city>"]  
+	},
+	{
+		"name": "Utsäde Gene Vault",
+		"cost": 1400,
+		"specialistSlots": {"Scientist": 2},
+		"isWonder": true,
+		"requiredTech": "Ecotheory",
+		"uniques": ["[+2 Science] from every [Nature Preserve] <in this city>",
+		"[+2 Gold] from every [Genocentre] <in this city>",
+		"[+2 Culture] from every [Eco-Commune] <in this city>"]  
+	},
+	{
+		"name": "Implant Clinic",
+		"cost": 900,
+		"maintenance": 4,
+		"percentStatBonus": {"gold": 15},
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Hospital",
+		"requiredTech": "Implants"  
+	},
+	{
+		"name": "Network Backbone",   //to do: no info hub, distribution hub, metroplex hub
+		"cost": 900,
+		"maintenance": 6,
+		"science": 2,
+		"culture": 2,
+		"requiredBuilding": "Server Hub",
+		"requiredTech": "Cognitive Technology"
+		"uniques": ["[+1 Science] from every [Research Server] <in this city>",
+		"[+1 Culture] from every [Entertainment Server] <in this city>",
+		"[+1 Gold] from every [Communications Array] <in this city>"]  
+	},
+	{
+		"name": "Undersea Mining Platform",  //to do: no aquaculture lab
+		"cost": 700,
+		"maintenance": 4,
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Harbor",
+		"requiredTech": "Cognitive Technology"
+		"uniques": ["[+2 Production] from every [Water] <in this city>"]  
+	},
+	{
+		"name": "Virtual Idol",  //tourism + GW stuff
+		"cost": 1400,
+		"percentStatBonus": {"culture": 50},
+		"isWonder": true,
+		"requiredTech": "Cognitive Technology",
+		"uniques": ["Free [Great Artist] appears"]  
+	},
+	{
+		"name": "Converter",  //add: must have improved resource
+		"cost": 500,
+		"maintenance": 4,
+		"requiredTech": "Microscale Engineering"
+		"uniques": ["[+2 Gold] from every [Coal, Oil] <in this city>",
+		"Provides [2] [Nanomaterial]"]  
+	},
+	{
+		"name": "Mycoprotein Vats",  //to do: no genemod, cloning, transgenic
+		"cost": 700,
+		"maintenance": 4,
+		"requiredBuilding": "Vertical Farm",
+		"requiredTech": "Orbital Development"  
+		"uniques": ["[+1 Food] per [4] population [in this city]"]  
+	},
+	{
+		"name": "Space Station",
+		"cost": 1200,
+		"maintenance": 6,
+		"percentStatBonus": {"science": 25},
+		"percentStatBonus": {"production": 25},
+		"specialistSlots": {"Engineer": 2},
+		//"requiredBuilding": "Launch Facility --> add/test later",
+		"requiredTech": "Orbital Development"  
+	},
+	{
+		"name": "Research Module",
+		"cost": 800,
+		"maintenance": 8,
+		"specialistSlots": {"Scientist": 4},
+		"requiredBuilding": "Space Station",
+		"requiredTech": "Orbital Development"
+	},
+	{
+		"name": "Engineering Module",
+		"cost": 800,
+		"maintenance": 8,
+		"specialistSlots": {"Engineer": 4},
+		"requiredBuilding": "Space Station",
+		"requiredTech": "Orbital Development"
+	},
+	{
+		"name": "Comm Module",
+		"cost": 800,
+		"maintenance": 8,
+		"specialistSlots": {"Merchant": 4},
+		"requiredBuilding": "Space Station",
+		"requiredTech": "Orbital Development"
+	},
+	{
+		"name": "Tidal Array",
+		"cost": 750,
+		"gold": 5,
+		"production": 5,
+		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"production": 10},
+		"requiredBuilding": "Tidal Plant",
+		"requiredTech": "Transgenics"   
+		"uniques": ["Must be next to [Coast]","[+1 Production, +1 Gold] from every [Water resource] <in this city>"],
+	},
+	{
+		"name": "Transgenic Nursery",  //add: no vertical farm, no mycoprotein, orbital habitat
+		"cost": 900,
+		"maintenance": 5,
+		"requiredBuilding": "Cloning Lab",
+		"requiredTech": "Transgenics"   
+		"uniques": ["[+1 Production, +1 Food] from every [Marsh] <in this city>",
+		"[+1 Production] from every [Jungle] <in this city>",
+		"[+1 Food] from every [Forest] <in this city>"],
+	},
+	{
+		"name": "Pholus Mutagen",
+		"cost": 1800,
+		"isWonder": true,
+		"requiredTech": "Transgenics",
+		"uniques": ["All newly-trained [non-[Air]] units [in all cities] receive the [Gengineered] promotion",
+		"[+1 Food, +1 Production, +1 Gold] from every [Farm, Plantation, Nature Preserve] <in this city>"]  
+	},
+	{
+		"name": "Cyberclinic",
+		"cost": 900,
+		"maintenance": 6,
+		"percentStatBonus": {"gold": 15},
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Research Lab",
+		"requiredTech": "Neural Interface"
+	},
+	{
+		"name": "Kalt Geymsia Data Haven",
+		"cost": 1600,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"requiredTech": "Neural Interface",
+		"uniques": ["Must be on [Tundra]", "[+2 Science, +2 Culture] from every [Tundra, Snow] <in this city>",
+		"[+2 Gold] from every [Server Hub]"]  
+	},
+	{
+		"name": "Drone Hive",   //to do: no biofactory, genejack, biogenesis
+		"cost": 900,
+		"maintenance": 4,
+		"production": 8,
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Autoplant",
+		"requiredTech": "Autonomous Systems"
+		"uniques": ["[+1 Production] from every [Generator] <in this city>"]
+	},
+	{
+		"name": "Borehole", 
+		"cost": 1200,
+		"maintenance": 6,
+		"percentStatBonus": {"production": 10},
+		"isNationalWonder": true,
+		"requiredBuilding": "Geothermal Plant",
+		"requiredTech": "Autonomous Systems"
+		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in this city>"]  
+	},
+	{
+		"name": "Fusion Reactor",  
+		"cost": 1000,
+		"maintenance": 4,
+		"production": 7,
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Nuclear Plant",
+		"requiredTech": "Nuclear Fusion"
+	},
+	{
+		"name": "Distribution Hub",  //to do: no backbone, telepresence, AI Network
+		"cost": 500,
+		"maintenance": 3,
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Information Hub",
+		"requiredTech": "Nuclear Fusion"
+		"uniques": ["[+1 Production] per [4] population [in this city]",
+		"[+1 Production] from every [Industrial Complex] <in this city>"] 
+	},
+	{
+		"name": "Fusion Reactor",  
+		"cost": 1400,
+		"specialistSlots": {"Engineer": 3},
+		"requiredBuilding": "Nuclear Plant",
+		"requiredTech": "Nuclear Fusion"
+		"uniques": ["Provides [12] [Nanomaterial]",
+		"[+2 Production] from every [Factory, Nanomaterial Plant] <in this city>"] 
+	},
+	{
+		"name": "Aerospace Complex",  
+		"cost": 750,
+		"maintenance": 6,
+		"requiredTech": "Arcologies"
+		"uniques": ["[+6] Air Interception Range",  //originally range
+		"[+15]% Production when constructing [Drone Fighter] units [in this city]",
+		"[+15]% Production when constructing [Suborbital Bomber] units [in this city]"] 
+	},
+	{
+		"name": "Orbital Habitat",  //to do: no genemod, cloning, transgenic
+		"cost": 900,
+		"gold": 3,
+		"requiredBuilding": "Mycoprotein Vats",
+		"requiredTech": "Arcologies"
+		"uniques": ["[+1 Food] from every specialist [in this city]"] 
+	},
+	{
+		"name": "Central Command",   //add: only availabe in capital
+		"cost": 1200,
+		"maintenance": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Arcologies"
+		"uniques": ["Only available <if [Information Hub] is constructed in all [non-[Puppeted]] cities>",
+		"[+6 Culture] from every [Information Hub] <in [in all cities] cities>",
+		"[+6 Production] from every [Distribution Hub] <in [in all cities] cities>"],
+	},
+	{
+		"name": "Biogenesis Pod",  //to do: no autoplant, drone hive, utility fog
+		"cost": 1200,
+		"maintenance": 5,
+		"requiredBuilding": "Biofactory",
+		"requiredTech": "Designer Lifeforms"
+		"uniques": ["[+1 Production] from every [Forest] <in this city>",
+		"[+15]% Production when constructing [Mutant, Chimera, Bio-Titan] units [in this city]", 
+		"All newly-trained [non-[Air]] units [in this city] receive the [Gengineered] promotion"] 
+	},
+	{
+		"name": "Genejack Facility", 
+		"cost": 1000,
+		"maintenance": 3,
+		"requiredBuilding": "Biofactory",
+		"requiredTech": "Biomodification"
+		"uniques": ["[+1 Production] from every [Tundra, Snow, Desert] <in this city>",
+		"[+1 Gold] from every [Grassland, Plains] <in this city>",
+		"Provides [1] [Nanomaterial]"] 
+	},
+	{
+		"name": "Bioenhancement Centre", 
+		"cost": 1200,
+		"maintenance": 4,
+		"requiredBuilding": "Biofactory",
+		"requiredTech": "Biomodification"
+		"uniques": ["[+15]% Production when constructing [Organic Infantry] units [in this city]", 
+		"All newly-trained [non-[Air]] units [in this city] receive the [Biomod] promotion"] 
+	},
+	{
+		"name": "Telepresence Hub",   //not with info hub, distribu hub, metroplex
+		"cost": 1000,
+		"maintenance": 8,
+		"production": 4,
+		"requiredBuilding": "Network Backbone",
+		"requiredTech": "Cybernetics"
+		"uniques": ["[+1 Gold, +1 Production] from every [Cyberclinic] <in this city>"] 
+	},
+	{
+		"name": "Mnemosyne Facility",
+		"cost": 1600,		
+		"greatPersonPoints": {"Great Scientist": 2},
+		"requiredTech": "Cybernetics"
+		"uniques": ["New [Military] units start with [10] Experience [in this city]", "Destroyed when the city is captured"],
+	},
+	{
+		"name": "AI Network",   //not with info hub, distribu hub, metroplex
+		"cost": 1000,
+		"maintenance": 8,
+		"culture": 6,
+		"science": 6,
+		"requiredBuilding": "Network Backbone",
+		"requiredTech": "Artificial Intelligence"
+		"uniques": ["[+1 Culture, +1 Science] from every [AI Network] <in [in all cities] cities>",
+		"[+1 Production, +1 Gold] from every [Support Node] <in this city>"] 
+	},
+	{
+		"name": "Skynet", 
+		"cost": 1800,
+		"isWonder": true,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": ["All newly-trained [non-[Air]] units [in all cities] receive the [Skynet] promotion"]  
+	},
+	{
+		"name": "Nanoforge",  
+		"cost": 1000,
+		"maintenance": 5,
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Autoplant",
+		"requiredTech": "Nanotechnology"
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]"] 
+	},
+	{
+		"name": "Nucleonic Foundry",
+		"cost": 1200,
+		"maintenance": 6,
+		"percentStatBonus": {"production": 30},
+		"requiredBuilding": "Fusion Reactor",
+		"requiredTech": "Adamantium",
+		"uniques": ["Consumes [2] [Uranium]","Provides [6] [Nanomaterial]",
+		"[+4 Production, +2 Gold] from every [Uranium, Aluminum] <in this city>"]  
+	},
+	{
+		"name": "Floating Islands",  //Hyperstructure
+		"cost": 2100,
+		"greatPersonPoints": {"Great Scientist": 3},
+		"requiredTech": "Terraforming",
+		"uniques": ["Consumes [6] [Nanomaterial]",
+		"[+3 Culture, +3 Gold] from every [Water] <in this city>",
+		"[+2 Culture, +2 Gold, +1 Food, +1 Production] from every [Atoll] <in this city>"]  
+	},
+	{
+		"name": "Birthing Pods",
+		"cost": 1200,
+		"maintenance": 4,
+		"happiness": 2,
+		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"science": 25},
+		"requiredBuilding": "Genemod Lab",
+		"requiredTech": "Human Augmentation"  
+	},
+	{
+		"name": "Bionic Tower",  //Hyperstructure
+		"cost": 2200,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"requiredTech": "Human Augmentation",
+		"uniques": ["Consumes [6] [Nanomaterial]", "Must be on [Fresh water]",
+		"[-50]% Unhappiness from [Specialists] [in this city]"]  
+	},
+	{
+		"name": "Nephilim Gene Template",
+		"cost": 2400,
+		"isWonder": true,
+		"requiredTech": "Human Augmentation",
+		"uniques": ["[+1 Production, +1 Gold, +1 Science] per [2] population [in tall cities]"]  
+	},
+	{
+		"name": "Brain Uploading Facility", 
+		"cost": 1200,
+		"maintenance": 5,
+		"requiredBuilding": "Cyberclinic",
+		"requiredTech": "Digital Society",
+		"uniques": ["[+2 Culture, +2 Gold, +2 Production, +2 Science] from every [Unemployed] <in this city>"]  //test
+	},
+	{
+		"name": "Shimizu Megy City Pyramid",  //Hyperstructure
+		"cost": 2300,
+		"gold": 20,
+		"science": 20,
+		"production": 20,
+		"greatPersonPoints": {"Great Engineer": 3},
+		"requiredTech": "Digital Society",
+		"uniques": ["Consumes [6] [Nanomaterial]","Must be on [Coastal]",
+		"[+2 Happiness] from every [Autoplant, Drone Hive] <in this city>"]  
+	},
+	{
+		"name": "Digital Emancipation", 
+		"cost": 2200,
+		"isWonder": true,
+		"requiredTech": "Digital Society",
+		"uniques": ["[+2 Culture, +2 Gold, +2 Production, +2 Science] from every [Unemployed] <in [in all cities] cities>",   //test
+		"[+6 Science, +6 Culture] from every [AI Network] <in [in all cities] cities>",
+		"[+8 Production] from every [Drone Hive] <in [in all cities] cities>"] 
+	},
+	{
+		"name": "Utility Fog Generator",  //add: no biofactory, genejack, biogenesis
+		"cost": 1200,
+		"maintenance": 6,
+		"production": 6,
+		"happiness": 2,
+		"cityStrength": 12,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Drone Hive",
+		"requiredTech": "Smart Materials",
+		"uniques": ["Destroyed when the city is captured",
+		"[+20]% Production when constructing [All] buildings [in this city]"]
+	},
+	{
+		"name": "Angelnet", 
+		"cost": 2400,
+		"isWonder": true,
+		"requiredTech": "Smart Materials",
+		"uniques": ["[+6 Production, +2 Happiness] from every [Utility Fog Generator] <in [in all cities] cities>", 
+		"Gain a free [Utility Fog Generator] [in this city]"] 
+	},
+	{
+		"name": "Moon Base", 
+		"cost": 2000,
+		"isWonder": true,
+		"maintenance": 6,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Space Station",
+		"requiredTech": "Energy Theory",
+		"uniques": ["[+5 Production, +5 Science] from every [Fusion Plant, Space Station, Research Module, Engineering Module, Comm Module] <in [in all cities] cities>",
+		"Consumes [2] [Nanomaterial]"] 
+	},
+	{
+		"name": "Citadel Station", 
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Energy Theory",
+		"uniques": ["[+2 Science, +2 Gold] from every [Scientist] <in [in all cities] cities>",
+		"[+2 Production, +2 Gold] from every [Engineer] <in [in all cities] cities>"] 
+	},
+	{
+		"name": "Metroplex Hub",  //add: no network backbone, telepresence, AI Network
+		"cost": 500,
+		"maintenance": 3,
+		"specialistSlots": {"Merchant": 2},
+		"requiredBuilding": "Distribution Hub",
+		"requiredTech": "Hyperstructures",
+		"uniques": ["[+1 Gold] per [4] population [in this city]",
+		"[+1 Gold] from every [Arcology] <in this city>"]  
+	},
+	{
+		"name": "Ultima Tower",  //Hyperstructure
+		"cost": 2400,
+		"happiness": 10,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Hyperstructures",
+		"uniques": ["Consumes [6] [Nanomaterial]",
+		"[+2] population [in this city]"]  
+	},
+	{
+		"name": "Sky City",  //Hyperstructure
+		"cost": 2500,
+		"happiness": 10,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Hyperstructures",
+		"uniques": ["Consumes [6] [Nanomaterial]",
+		"[+4 Food, +4 Food, +2 Happiness] from every [Vertical Farm] <in this city>", 
+		"Gain a free [Vertical Farm] [in this city]"]  
+	},
+	{
+		"name": "Buenos Aires Forum",  //Hyperstructure - GA generator
+		"cost": 2100,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"requiredTech": "Hyperstructures",
+		"uniques": ["Consumes [6] [Nanomaterial]", "Must be on [Fresh water]",
+		"Empire enters golden age", "[+50]% Golden Age length"]  
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ]

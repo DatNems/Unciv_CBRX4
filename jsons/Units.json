@@ -1230,6 +1230,8 @@
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Supercarrier",
+		"obsoleteTech": "Robotics",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
 	},
 	{
@@ -1256,9 +1258,9 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Nuclear Fission",
+		"upgradesTo": "Bazooka",
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -1294,6 +1296,8 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
+		"obsoleteTech": "Particle Physics",
+		"upgradesTo": "Missile Destroyer",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
@@ -1308,7 +1312,9 @@
 		"strength": 65,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
+		"obsoleteTech": "Globalization",
 		"promotions": ["Amphibious"],
+		"upgradesTo": "Special Forces",
 		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
@@ -1380,9 +1386,10 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "The Internet",
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Airborne Forces",
 		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
 		"name": "Tank",
@@ -1448,6 +1455,8 @@
 		"range": 3,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"obsoleteTech": "Microscale Engineering",
+		"upgradesTo": "Mech Artillery",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit"],
@@ -1475,6 +1484,8 @@
 		"range": 8,
 		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
+		"obsoleteTech": "Microscale Engineering",
+		"upgradesTo": "Hypervelocity Missile",
 		"uniques": ["[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
@@ -1500,7 +1511,9 @@
 		"strength": 60,
 		"cost": 425,
 		"requiredTech": "Computers",
+		"obsoleteTech": "Distributed Computing",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Vertol",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
@@ -1516,6 +1529,8 @@
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
+		"obsoleteTech": "Neural Interface",
+		"upgradesTo": "Cybersub",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -1526,6 +1541,8 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
+		"obsoleteTech": "Nanomaterials",
+		"upgradesTo": "Power Armor Infantry",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1539,6 +1556,8 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
+		"obsoleteTech": "Distributed Computing",
+		"upgradesTo": "Arsenal Ship",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -1552,7 +1571,8 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Giant Death Robot",
+		"obsoleteTech": "High-Energy Physics",
+		"upgradesTo": "Railgun Armor",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1566,7 +1586,9 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
+		"obsoleteTech": "Cognitive Technology",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Drone Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
@@ -1575,9 +1597,9 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
+		"cost": 720,
+		"requiredTech": "Adamantium",
+		"requiredResource": "Nanomaterial",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "gdrAttack"
 	},
@@ -1590,6 +1612,8 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
+		"obsoleteTech": "Nuclear Fusion",
+		"upgradesTo": "Suborbital Bomber",
 		"requiredResource": "Aluminum",
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
@@ -1702,8 +1726,8 @@
 		"name": "SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Advanced Ballistics",
+		"cost": 1000,
+		"requiredTech": "Energy Theory",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
 		// costs 1500 in BNW
@@ -1712,8 +1736,8 @@
 		"name": "SS Cockpit",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Satellites",
+		"cost": 2000,
+		"requiredTech": "Computronium",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
@@ -1722,9 +1746,9 @@
 		"name": "SS Engine",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "Aluminum",
+		"cost": 1500,
+		"requiredTech": "Space Calonization",
+		"requiredResource": "Nanomaterial",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
 	},
@@ -1732,9 +1756,9 @@
 		"name": "SS Stasis Chamber",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Nanotechnology",
-		"requiredResource": "Aluminum",
+		"cost": 1500,
+		"requiredTech": "Homo Superior",
+		"requiredResource": "Nanomaterial",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
 	}
@@ -2805,7 +2829,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Kwik'ìì Doò",
+		"name": "Kwik'ii Doo",
 		"replaces": "Musketman",
 		"uniqueTo": "The Yellowknives",
 		"unitType": "Gunpowder",
@@ -2834,10 +2858,442 @@
 		"attackSound": "arrow"
 	},
 	
+	//Future Tech Units
 	
-	
-	
-	
+	{
+		"name": "Supercarrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 6,
+		"strength": 55,
+		"rangedStrength": 20,
+		"cost": 550,
+		"requiredTech": "Robotics",
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
+	},
+	{
+		"name": "Mutant",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 80,
+		"cost": 320,
+		"upgradesTo": "Organic Infantry",
+		"promotions": ["[Mutant] ability"],
+		"requiredTech": "Genetic Manipulation",
+		"obsoleteTech": "Implants",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Special Forces",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 85,
+		"cost": 400,
+		"requiredTech": "Globalization",
+		"obsoleteTech": "Implants",
+		"promotions": ["Amphibious"],
+		"upgradesTo": "Organic Infantry",
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked",
+		"[+20]% Strength <when fighting in [Coastal] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bazooka",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 80,
+		"rangedStrength": 80,
+		"cost": 375,
+		"requiredTech": "Nuclear Fission",
+		"obsoleteTech": "The Internet",
+		"upgradesTo": "Drone UAV",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Drone UAV",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 90,
+		"cost": 400,
+		"promotions": ["[Drone] ability"],
+		"requiredTech": "The Internet",
+		"obsoleteTech": "Implants",
+		"upgradesTo": "Hybrid Drone",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Airborne Forces",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 85,
+		"cost": 400,
+		"requiredTech": "The Internet",
+		"obsoleteTech": "Nanotechnology",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit",
+		"No movement cost to pillage"], //gotta test I think
+		"upgradesTo": "XCOM Squad",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Missile Destroyer",
+		"unitType": "Melee Water",
+		"movement": 7,
+		"strength": 75,
+		"interceptRange": 3,
+		"cost": 450,
+		"requiredTech": "Particle Physics",
+		"obsoleteTech": "Autonomous Systems",
+		"upgradesTo": "Advanced Destroyer",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Vertol",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 80,
+		"cost": 500,
+		"requiredTech": "Distributed Computing",
+		"obsoleteTech": "Cybernetics",
+		"requiredResource": "Nanomaterial",
+		"upgradesTo": "Hovertank",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Arsenal Ship",
+		"unitType": "Ranged Water",
+		"movement": 8,
+		"strength": 100,
+		"rangedStrength": 125,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 500,
+		"requiredTech": "Distributed Computing",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [4] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Power Armor Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 105,
+		"cost": 450,
+		"requiredTech": "Nanomaterials",
+		"upgradesTo": "Battlesuit",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Railgun Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 120,
+		"cost": 550,
+		"requiredTech": "High-Energy Physics",
+		"requiredResource": "Nanomaterial",
+		"obsoleteTech": "Adamantium",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Hybrid Drone",
+		"unitType": "Ranged Gunpowder",
+		"range": 3,
+		"movement": 3,
+		"strength": 65,
+		"rangedStrength": 100,
+		"cost": 500,
+		"promotions": ["[Drone] ability", "March"],
+		"requiredTech": "Implants",
+		"upgradesTo": "Biodrone",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Organic Infantry",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 100,
+		"cost": 450,
+		"promotions": ["[Mutant] ability","Amphibious"],
+		"requiredTech": "Implants",
+		"obsoleteTech": "Biomodification",
+		"upgradesTo": "BioTrooper",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Drone Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 500,
+		"requiredTech": "Cognitive Technology",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Automaton",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 90,
+		"cost": 420,
+		"promotions": ["Battle Network"],
+		"requiredTech": "Cognitive Technology",
+		"upgradesTo": "Robot Infantry",
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Mech Artillery",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 60,
+		"rangedStrength": 90,
+		"range": 3,
+		"cost": 500,
+		"requiredTech": "Microscale Engineering",
+		"obsoleteTech": "Hyperstructures",
+		"upgradesTo": "Crawler",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Hypervelocity Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 120,
+		"rangedStrength": 120,
+		"range": 12,
+		"cost": 200,
+		"requiredTech": "Microscale Engineering",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Cybersub",
+		"unitType": "Submarine",
+		"movement": 8,
+		"strength": 75,
+		"range": 4,
+		"rangedStrength": 100,
+		"cost": 500,
+		"requiredTech": "Neural Interface",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Advanced Destroyer",
+		"unitType": "Melee Water",
+		"movement": 8,
+		"strength": 100,
+		"interceptRange": 3,
+		"cost": 600,
+		"requiredTech": "Autonomous Systems",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Suborbital Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 110,
+		"rangedStrength": 110,
+		"range": 30,
+		"cost": 600,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Chimera",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 80,
+		"cost": 400,
+		"promotions": ["[Mutant] ability","Ignore terrain cost","Volley"],
+		"requiredTech": "Designer Lifeforms",
+		"upgradesTo": "Bio-Titan",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Tyrannosaurus Rex",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 120,
+		"cost": 500,
+		"requiredTech": "Designer Lifeforms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Triceratops",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 100,
+		"cost": 400,
+		"promotions": ["Cover I"],
+		"requiredTech": "Designer Lifeforms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Velociraptor",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 90,
+		"cost": 425,
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Can move after attacking"],
+		"requiredTech": "Designer Lifeforms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "BioTrooper",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 110,
+		"cost": 550,
+		"promotions": ["[Mutant] ability","Amphibious"],
+		"requiredTech": "Biomodification",
+		"attackSound": "shot"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Hovertank",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 100,
+		"cost": 600,
+		"requiredTech": "Cybernetics",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Robot Infantry",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 110,
+		"cost": 500,
+		"promotions": ["Battle Network"],
+		"requiredTech": "Artificial Intelligence",
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "XCOM Squad",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 120,
+		"cost": 500,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "Never appears as a Barbarian unit",
+		"No movement cost to pillage"], //gotta test I think
+		"attackSound": "shot"
+	},
+	{
+		"name": "Nanohive",  //hovers + damages adjacent units
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 100,
+		"cost": 450,
+		"promotions": ["Nanoswarm"],
+		"requiredTech": "Nanotechnology",
+		"obsoleteTech": "Smart Materials",
+		"upgradesTo": "Nexus",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Battlesuit",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 120,
+		"cost": 550,
+		"requiredTech": "Adamantium",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Biodrone",
+		"unitType": "Ranged Gunpowder",
+		"range": 4,
+		"movement": 4,
+		"strength": 70,
+		"rangedStrength": 110,
+		"cost": 600,
+		"promotions": ["[Drone] ability", "March", "Indirect Fire"],
+		"requiredTech": "Terraforming",
+		"requiredResource": "Nanomaterial",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bio-Titan",  //add: can spawn swarm units
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 140,
+		"cost": 800,
+		"promotions": ["[Mutant] ability","Ignore terrain cost","Volley"],
+		"requiredTech": "Terraforming",
+		"requiredResource": "Uranium",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Genoswarm",  //unit spawned from Bio-Titans
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 80,
+		"cost": 1,
+		"requiredTech": "Terraforming",
+		"uniques": ["Unbuildable"]
+		"attackSound": "horse"
+	},
+	{
+		"name": "Nexus",  //hovers + damages adjacent units
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 120,
+		"cost": 1000,
+		"promotions": ["Nanoswarm", "Cover I"],
+		"requiredTech": "Smart Materials",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["Never appears as a Barbarian unit","Can carry [4] [Aircraft] units"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Crawler",  //can spawn missiles (33%)
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 160,
+		"rangedStrength": 120,
+		"range": 4,
+		"cost": 800,
+		"requiredTech": "Hyperstructures",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Can carry [3] [Missile] units", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
 	
 	
 	

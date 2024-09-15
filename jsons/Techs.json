@@ -540,17 +540,17 @@
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
-				"name": "Rocketry",
+				"name": "Computers",
 				"row": 6,
 				"prerequisites": ["Radar"],
-				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
-			},
-			{
-				"name": "Computers",
-				"row": 8,
-				"prerequisites": ["Combined Arms","Radar"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
+			{
+				"name": "Rocketry",
+				"row": 8,
+				"prerequisites": ["Combined Arms","Radar"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
 		]
 	},
 	{
@@ -561,95 +561,340 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Telecommunications",
-				"row": 2,
+				"name": "Environmentalism",
+				"row": 1,
 				"prerequisites": ["Ecology"],
+				"quote": "'We have lived our lives by the assumption that what was good for us would be good for the world. We have been wrong. We must change our lives so that it will be possible to live by the contrary assumption, that what is good for the world will be good for us. And that requires that we make the effort to know the world and learn what is good for it.' - Wendell Berry"
+			},
+			{
+				"name": "Telecommunications",
+				"row": 3,
+				"prerequisites": ["Ecology","Nuclear Fission"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "Mobile Tactics",
-				"row": 3,
-				"prerequisites": ["Ecology","Nuclear Fission"],
+				"row": 4,
+				"prerequisites": ["Nuclear Fission"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
-				"name": "Advanced Ballistics",
-				"row": 5,
-				"prerequisites": ["Nuclear Fission","Rocketry"],
-				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
-			},
-			{
-				"name": "Satellites",
-				"row": 6,
-				"prerequisites": ["Rocketry"],
-				"uniques": ["Reveals the entire map"],
-				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
-			},
-			{
 				"name": "Robotics",
-				"row": 7,
-				"prerequisites": ["Rocketry","Computers"],
+				"row": 5,
+				"prerequisites": ["Nuclear Fission","Computers"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "Lasers",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Computers"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
+			{
+				"name": "Satellites",
+				"row": 7,
+				"prerequisites": ["Computers","Rocketry"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "Advanced Ballistics",
+				"row": 9,
+				"prerequisites": ["Rocketry"],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
 		]
 	},
-
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techCost": 8800,
+		"techCost": 9000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Globalization",
+				"name": "Genetic Manipulation",
+				"row": 1,
+				"prerequisites": ["Environmentalism","Telecommunications"],
+				"quote": "'We cannot become what we need to be, remaining what we are.' - Max De Pree"
+			},
+			{
+				"name": "Globalization", //adds trade route
 				"row": 2,
 				"prerequisites": ["Telecommunications"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
+				"name": "The Internet",
+				"row": 4,
+				"prerequisites": ["Telecommunications","Mobile Tactics","Robotics"],
+				"quote": " "
+			},
+			{
 				"name": "Particle Physics",
-				"row": 3,
-				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
-				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
-			},
-			{
-				"name": "Nuclear Fusion",
 				"row": 6,
-				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
-				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
-			},
-			{
-				"name": "Nanotechnology",
-				"row": 7,
-				"prerequisites": ["Robotics"],
-				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+				"prerequisites": ["Robotics","Lasers"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
 				"name": "Stealth",
 				"row": 8,
-				"prerequisites": ["Robotics", "Lasers"],
+				"prerequisites": ["Satellites", "Advanced Ballistics"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
 	},
 	{
 		"columnNumber": 17,
+		"era": "Information era",
+		"techCost": 10300, 
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Cloning",
+				"row": 1,
+				"prerequisites": ["Genetic Manipulation"],
+				"quote": "'Why would you clone people when you can go to bed with them and make a baby? C'mon, it's stupid.' - Ray Bradbury"
+			},
+			{
+				"name": "Memetics",
+				"row": 2,
+				"prerequisites": ["Genetic Manipulation","Globalization","The Internet"],
+				"quote": "'Not even the most heavily-armed police state can exert brute force to all of its citizen all of the time. Meme management is so much subtler; the rose-tinted refraction of perceived reality, the contagious fear of threatening alternatives.' - Peter Watts, Blindsight"
+			},
+			{
+				"name": "Distributed Computing",
+				"row": 4,
+				"prerequisites": ["The Internet"],
+				"quote": "'All of a sudden, we've lost a lot of control. We can't turn off our internet; we can't turn off our smartphones; we can't turn off our computers.' - Steve Wozniak"
+			},
+			{
+				"name": "Nanomaterials",
+				"row": 6,
+				"prerequisites": ["The Internet","Particle Physics"],
+				"quote": "'Carbon atoms on a distant planet rearranged themselves into DNA, microorganisms formed, grew backbones, swam around the ocean, mutated into amphibians and crawled onto dry land and finally a cab appeared at the mouth of the alley.' - Mark Coggins, 'The Immortal Game'"
+			},
+			{
+				"name": "High-Energy Physics",
+				"row": 8,
+				"prerequisites": ["Particle Physics","Stealth"],
+				"quote": "'Physics is the only profession in which prophecy is not only accurate but routine.' - Neil deGrasse Tyson"
+			},
+			{
+				"name": "Artificial Environments",
+				"row": 10,
+				"prerequisites": ["Stealth"],
+				"quote": "'The more artificial a human environment becomes, the more the word 'natural' becomes a term of value.' - Wendell Berry"
+			},
+		]
+	},
+	{
+		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 9500,
+		"techCost": 11800, 
+		"buildingCost": 900,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Ecotheory",
+				"row": 2,
+				"prerequisites": ["Memetics"],
+				"quote": "'Every living being is connected intimately, and from this intimacy follows the capacity of identification and as its natural consequences, practice of non-violence.' - Arne Naess"
+			},
+			{
+				"name": "Implants", 
+				"row": 3,
+				"prerequisites": ["Memetics"],
+				"quote": "'And he causeth all, both small and great, rich and poor, free and bound, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name.' - Revelations, The Bible"
+			},
+			{
+				"name": "Cognitive Technology",
+				"row": 5,
+				"prerequisites": ["Distributed Computing","Nanomaterials"],
+				"quote": "'Digital behaviour is just a replication of human behaviour.' - Paul Papadimitrou"
+			},
+			{
+				"name": "Microscale Engineering", 
+				"row": 7,
+				"prerequisites": ["Nanomaterials","High-Energy Physics"],
+				"quote": "'Infinities and indivisibles transcend our finite understanding, the former on account of their magnitude, the latter because of their smallness; imagine what they are when combined.' - Galileo Galilei"
+			},
+			{
+				"name": "Orbital Development",
+				"row": 9,
+				"prerequisites": ["High-Energy Physics","Artificial Environments"],
+				"quote": "'The exploration and use of outer space, including the moon and other celestial bodies, shall be carried out for the benefit and in the interests of all countries, irrespective of their degree of economic or scientific development, and shall be the province of all mankind.' - Article 1 of the Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, Including the Moon and Other Celestial Bodies"
+			},
+		]
+	},
+	{
+		"columnNumber": 19,  
+		"era": "Future era",
+		"techCost": 13800, 
+		"buildingCost": 900,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Transgenics",
+				"row": 1,
+				"prerequisites": ["Cloning","Ecotheory"],
+				"quote": "'Nothing is so painful to the human mind as a great an sudden change.' - Mary Shelley, Frankenstein"
+			},
+			{
+				"name": "Neural Interface",
+				"row": 4,
+				"prerequisites": ["Implants","Cognitive Technology"],
+				"quote": "'A picture is worth a thousand words. An interface is worth a thousand pictures.' - Ben Shneiderman"
+			},
+			{
+				"name": "Autonomous Systems",
+				"row": 6,
+				"prerequisites": ["Cognitive Technology"],
+				"quote": "'Never do anything yourself that others can do for you.' - Agatha Christie, The Labours of Hercules"
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 8,
+				"prerequisites": ["Microscale Engineering","Orbital Development"],
+				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+			},
+			{
+				"name": "Arcologies", 
+				"row": 10,
+				"prerequisites": ["Orbital Development"],
+				"quote": "'Architecture is the physical form of the ecology of the human, the configuration of matter which allows for the best energetic and willful flux.' - Paolo Soleri"
+			},
+		]
+	},
+	{
+		"columnNumber": 20,  
+		"era": "Future era",
+		"techCost": 16500, 
+		"buildingCost": 900,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Designer Lifeforms",
+				"row": 1,
+				"prerequisites": ["Transgenics"],
+				"quote": "'If you realize that all things change, there is nothing you will try to hold on to. If you are not afraid of dying, there is nothing you cannot achieve.' - Lao Tzu, Tao Te Ching"
+			},
+			{
+				"name": "Biomodification",
+				"row": 3,
+				"prerequisites": ["Implants","Transgenics"],
+				"quote": "'As human beings, our only sensible scale of values is one based on lessening the agony of existence.' - H.P. Lovecraft"
+			},
+			{
+				"name": "Cybernetics",
+				"row": 4,
+				"prerequisites": ["Neural Interface"],
+				"quote": "'The world of the future will be an even more demanding struggle against the limitations of our intelligence, not a comfortable hammock in which we can lie down to be waited upon by our robot slaves.' - Norbert Weiner"
+			},
+			{
+				"name": "Artificial Intelligence",  //high-energy research centre +2 science.....except it doesn't exist?
+				"row": 5,
+				"prerequisites": ["Autonomous Systems"],
+				"quote": "'I think, therefore I am.' - Rene Descartes"
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 7,
+				"prerequisites": ["Microscale Engineering","Autonomous Systems"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Adamantium",
+				"row": 9,
+				"prerequisites": ["Nuclear Fusion"],
+				"quote": "'The tricky thing about adamantium is, that if you ever manage to process its raw, liquid form, you got to keep it that way, keep it hot. Because once the metal cools, it's indestructable.' - X-Men"
+			},
+		]
+	},
+	{
+		"columnNumber": 21,  
+		"era": "Future era",
+		"techCost": 19500, 
+		"buildingCost": 900,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Terraforming",
+				"row": 1,
+				"prerequisites": ["Designer Lifeforms","Biomodification"],
+				"quote": "'Man does not weave this web of life. He is merely a strand of it. Whatever he does to the web, he does to himself.' - Chief Seattle"
+			},
+			{
+				"name": "Human Augmentation",  //doubles tourism
+				"row": 3,
+				"prerequisites": ["Biomodification","Cybernetics"],
+				"quote": " 'Mind you, I've always wondered if Kei wasn't one of those Yamashita upgrades - you know, with too much adrenocorticotropic hormone, too little monoamine oxidase?' - Adam Warren, A Plague of Angels"
+			},
+			{
+				"name": "Digital Society",  //+1 Delegate
+				"row": 5,
+				"prerequisites": ["Cybernetics","Artificial Intelligence"],
+				"quote": "'If you stay right where you are, then people will eventually come to you.' - Robert Doisneau"
+			},
+			{
+				"name": "Smart Materials",
+				"row": 6,
+				"prerequisites": ["Artificial Intelligence","Nanotechnology"],
+				"quote": "'Everything changes, nothing remains without change.' - Siddh Rtha Gautama"
+			},
+			{
+				"name": "Energy Theory",
+				"row": 8,
+				"prerequisites": ["Nanotechnology","Adamantium"],
+				"quote": "'If you want to find the secrets of the universe, think in terms of energy, frequency and vibration' - Nikola Tesla"
+			},
+			{
+				"name": "Hyperstructures",
+				"row": 10,
+				"prerequisites": ["Arcologies","Adamantium"],
+				"quote": "'Men have become the tools of their tools.' - David Thoreau"
+			},
+		]
+	},
+	{
+		"columnNumber": 22,  
+		"era": "Future era",
+		"techCost": 23500, 
+		"buildingCost": 900,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Homo Superior",
+				"row": 3,
+				"prerequisites": ["Terraforming","Human Augmentation"],
+				"quote": "'I teach you the Overman. Man is something which shall be surpassed.' - Friedrich Nietzsche"
+			},
+			{
+				"name": "Computronium",
+				"row": 6,
+				"prerequisites": ["Digital Society","Smart Materials"],
+				"quote": " 'Men are only as good as their technical development allows them to be.' - George Orwell"
+			},
+			{
+				"name": "Space Calonization",
+				"row": 9,
+				"prerequisites": ["Energy Theory","Hyperstructures"],
+				"quote": "'There is no easy way to the stars from the earth.' - Seneca"
+			},
+		]
+	},
+	{
+		"columnNumber": 23,
+		"era": "Future era",
+		"techCost": 28000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
+				"prerequisites": ["Homo Superior","Computronium","Space Calonization"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
