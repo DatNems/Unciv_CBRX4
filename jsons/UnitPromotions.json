@@ -887,12 +887,6 @@
         "name": "[Yellowknife] ability",
         "uniques": ["[+1] Sight <upon ending a turn in a [Tundra] tile>"]
     },
-	
-	
-	
-	
-	
-	
 	//Crow promotion tree - needs extended testnig
 	{
         "name": "[Crow] ability",
@@ -918,4 +912,40 @@
         "name": "Steal an Enemy's Horse",  //works
         "uniques": ["[+1] Movement"]
     },
+	
+	//Future Tech abilities
+
+	{
+		"name": "[Mutant] ability",
+		"uniques": ["Heals [25] damage if it kills a unit","Unit will heal every turn, even if it performs an action"]
+	},
+	{
+		"name": "[Drone] ability",
+		"uniques": ["Can move after attacking","Ranged attacks may be performed over obstacles"]
+	},
+	{
+		"name": "Battle Network",
+		"uniques": ["[+20]% Strength <when adjacent to a [Friendly] unit>"]
+	},
+	{
+		"name": "Gengineered",
+		"uniques": ["[+1] Movement", "[+1] Sight", "[+33]% Strength <vs [Ranged] units>"]
+	},
+	{
+		"name": "Biomod",
+		"uniques": ["[This Unit] heals [25] HP <when below [50] HP> <once>"]  //test + add enemy dmg when adjacent
+	},
+	{
+		"name": "Skynet",
+		"uniques": ["[+10]% Strength"]
+	},
+	{
+		"name": "Nanoswarm",
+		"uniques": ["All adjacent units heal [+15] HP when healing"]
+	},
+	
+	
+	
+
+	
 ]

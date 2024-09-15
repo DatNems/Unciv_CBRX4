@@ -74,14 +74,17 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
+		"[+1 Gold] <after discovering [Transgenics]>"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", 
+		"[+1 Production] <after discovering [Autonomous Systems]>",
+		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -402,9 +405,101 @@
 		"[+1 Food] <after discovering [Civil Service]>"]
 	},
 	
+	//Future Tech Improvements
 	
 	
-	
+	{
+		"name": "Nature Preserve",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"culture": 2,
+		"techRequired": "Environmentalism",
+		"uniques": ["Cannot be built on [Hill] tiles",
+		"[+1 Culture, +1 Gold] <after discovering [Ecotheory]>"],
+	},
+	{
+		"name": "Communications Array", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 2,
+		"techRequired": "Mobile Tactics",
+		"uniques": ["Unavailable <with [1] to [3] neighboring [Communications Array] tiles>",
+		"[+1 Culture] <after discovering [Memetics]>",
+		"[+1 Science] <after discovering [Distributed Computing]>"],
+	},
+	{
+		"name": "Industrial Complex",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"production": 2,
+		"techRequired": "Lasers",
+		"uniques": ["[+1 Production, +1 Gold] <after discovering [Microscale Engineering]>"],
+	},
+	{
+		"name": "Eco-Commune",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"food": 1,
+		"culture": 1,
+		"gold": 1,
+		"techRequired": "Memetics",
+		"uniques": ["Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles",
+		"[+1 Culture] from [Fresh water] tiles","[+1 Food] <after discovering [Biomodification]>"],
+	},
+	{
+		"name": "Generator",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 2,
+		"production": 1,
+		"techRequired": "Nanomaterials",
+		"uniques": ["[+1 Gold] from [Fresh water] tiles","[+1 Gold] <after discovering [Nanotechnology]>"],
+	},
+	{
+		"name": "Hydroponics Dome",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Desert"],
+		"turnsToBuild": 7,
+		"food": 2,
+		"production": 1,
+		"techRequired": "Artificial Environments",
+		"uniques": ["[+1 Food] for each adjacent [Fresh water]",
+		"[+1 Gold] <after discovering [Arcologies]>"],
+	},
+	{
+		"name": "Genocentre", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"food": 1,
+		"production": 2,
+		"techRequired": "Transgenics",
+		"uniques": ["Unavailable <with [1] to [3] neighboring [Genocentre] tiles>",
+		"[+1 Food, +1 Gold] for each adjacent [City center]",
+		"[+2 Food] for each adjacent [Sheep, Wheat]","[+2 Production] for each adjacent [Horses, Cattle]"],  //test
+	},
+	{
+		"name": "Support Node",   //to do: heal units stuff
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 2,
+		"production": 2,
+		"techRequired": "Autonomous Systems",
+		"uniques": ["Unavailable <with [1] to [3] neighboring [Support Node] tiles>",
+		"[+1 Production, +1 Gold] for each adjacent [City center]",
+		"[+2 Production] for each adjacent [Hill]"],  //test
+	},
+	{
+		"name": "Arcology", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 2,
+		"food": 2,
+		"techRequired": "Arcologies",
+		"uniques": ["Unavailable <with [1] to [3] neighboring [Arcology] tiles>",
+		"[+1 Food, +1 Gold] for each adjacent [City center]",
+		"[+2 Gold] for each adjacent [Coast]"],  //test
+	},
 
 
 
